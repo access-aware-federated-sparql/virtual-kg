@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "862497cc-1efb-3a45-8edb-5634c99c8334",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "862497cc-1efb-3a45-8edb-5634c99c8334"
+          }
+        ],
+        "status": "active",
+        "name": "ACCESS PRIMARY CARE INC",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "9786551987"
+          }
+        ],
+        "address": {
+          "line": [
+            "242 SUTTON ST"
+          ],
+          "city": "NORTH ANDOVER",
+          "state": "MA",
+          "postalCode": "018451631",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -71.1300651,
+          "latitude": 42.70773345
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "c5306a86-09a1-32d9-875a-67ef56e131c0"
+          },
+          "display": "ACCESS PRIMARY CARE INC"
+        }
+      }
+    }
+  ]
+}

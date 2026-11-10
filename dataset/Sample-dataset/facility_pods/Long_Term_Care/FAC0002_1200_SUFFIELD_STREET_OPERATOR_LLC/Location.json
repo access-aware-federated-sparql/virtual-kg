@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "3bd8ce17-4109-30c3-b99a-e31dcc949e49",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "3bd8ce17-4109-30c3-b99a-e31dcc949e49"
+          }
+        ],
+        "status": "active",
+        "name": "1200 SUFFIELD STREET OPERATOR LLC",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(413) 789-2200"
+          }
+        ],
+        "address": {
+          "line": [
+            "1200 SUFFIELD ST"
+          ],
+          "city": "AGAWAM",
+          "state": "MA",
+          "postalCode": "010012933",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -72.63626743195428,
+          "latitude": 42.04892565
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "3e16ee4b-2dc7-3e29-ab5b-0ce980c362b1"
+          },
+          "display": "1200 SUFFIELD STREET OPERATOR LLC"
+        }
+      }
+    }
+  ]
+}

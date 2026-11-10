@@ -1,0 +1,7 @@
+@prefix ns1: <http://www.w3.org/ns/auth/acl#> .
+
+<http://localhost:3003/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/espressoindex_hdt/webid_1e8bd6dccaf618fbc7c9db32ee212cd653da8209dd0313d1d8599327e381078f.hdt.acl#read-0> a ns1:Authorization ;
+    ns1:accessTo <http://localhost:3003/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/espressoindex_hdt/webid_1e8bd6dccaf618fbc7c9db32ee212cd653da8209dd0313d1d8599327e381078f.hdt> ;
+    ns1:agent <http://localhost:3000/researcher_r1/profile/card#me> ;
+    ns1:mode ns1:Read .
+

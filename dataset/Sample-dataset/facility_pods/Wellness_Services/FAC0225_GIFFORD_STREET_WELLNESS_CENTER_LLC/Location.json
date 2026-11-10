@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "86353a1a-0f7c-346d-a22d-d5ee1e066c45"
+          }
+        ],
+        "status": "active",
+        "name": "GIFFORD STREET WELLNESS CENTER LLC",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "5089993126"
+          }
+        ],
+        "address": {
+          "line": [
+            "34 GIFFORD ST"
+          ],
+          "city": "NEW BEDFORD",
+          "state": "MA",
+          "postalCode": "027442610",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -70.91890087055067,
+          "latitude": 41.6177929
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "643eac8e-1620-3b6a-b9f3-664b003d22cd"
+          },
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    }
+  ]
+}

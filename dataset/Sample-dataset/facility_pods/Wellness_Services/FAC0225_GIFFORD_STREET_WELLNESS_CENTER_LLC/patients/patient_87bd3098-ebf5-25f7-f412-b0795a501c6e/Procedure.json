@@ -1,0 +1,660 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-f55f-031b0d145124",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "710824005",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-4051-3c07ff1ab375"
+        },
+        "performedPeriod": {
+          "start": "2019-06-28T07:37:48+01:00",
+          "end": "2019-06-28T08:13:56+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-ce4b-7b2394f1931a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "710841007",
+              "display": "Assessment of anxiety (procedure)"
+            }
+          ],
+          "text": "Assessment of anxiety (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-4051-3c07ff1ab375"
+        },
+        "performedPeriod": {
+          "start": "2019-06-28T08:13:56+01:00",
+          "end": "2019-06-28T08:31:50+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-9620-7c0747be03a4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "866148006",
+              "display": "Screening for domestic abuse (procedure)"
+            }
+          ],
+          "text": "Screening for domestic abuse (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-4051-3c07ff1ab375"
+        },
+        "performedPeriod": {
+          "start": "2019-06-28T08:31:50+01:00",
+          "end": "2019-06-28T09:16:14+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-00b1-005c3813ed7f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "171207006",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-4051-3c07ff1ab375"
+        },
+        "performedPeriod": {
+          "start": "2019-06-28T09:16:14+01:00",
+          "end": "2019-06-28T09:26:20+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-7e6f-273e0c49ee89",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "171207006",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-4051-3c07ff1ab375"
+        },
+        "performedPeriod": {
+          "start": "2019-06-28T09:26:20+01:00",
+          "end": "2019-06-28T09:52:07+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-5f35-1ff55874af00",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "428211000124100",
+              "display": "Assessment of substance use (procedure)"
+            }
+          ],
+          "text": "Assessment of substance use (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-4051-3c07ff1ab375"
+        },
+        "performedPeriod": {
+          "start": "2019-06-28T09:52:07+01:00",
+          "end": "2019-06-28T10:06:43+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-57f9-d2fe5a1e506a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "713106006",
+              "display": "Screening for drug abuse (procedure)"
+            }
+          ],
+          "text": "Screening for drug abuse (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-4051-3c07ff1ab375"
+        },
+        "performedPeriod": {
+          "start": "2019-06-28T10:06:43+01:00",
+          "end": "2019-06-28T10:27:33+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-5161-413fe756f315",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103697008",
+              "display": "Patient referral for dental care (procedure)"
+            }
+          ],
+          "text": "Patient referral for dental care (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-4051-3c07ff1ab375"
+        },
+        "performedPeriod": {
+          "start": "2019-06-28T10:27:33+01:00",
+          "end": "2019-06-28T10:44:12+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:87bd3098-ebf5-25f7-e98e-542e15f7fc51",
+            "display": "Gingivitis (disorder)"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-b181-fa68a648af5f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "430193006",
+              "display": "Medication reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-e82b-8426049cad5f"
+        },
+        "performedPeriod": {
+          "start": "2022-07-01T07:37:48+01:00",
+          "end": "2022-07-01T07:52:48+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-9c2d-1280d3112c7b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "710824005",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-e82b-8426049cad5f"
+        },
+        "performedPeriod": {
+          "start": "2022-07-01T07:37:48+01:00",
+          "end": "2022-07-01T08:16:02+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-7312-a286c80d9089",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "171207006",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-e82b-8426049cad5f"
+        },
+        "performedPeriod": {
+          "start": "2022-07-01T08:16:02+01:00",
+          "end": "2022-07-01T08:28:22+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-08f6-765ff054e8d9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "171207006",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-e82b-8426049cad5f"
+        },
+        "performedPeriod": {
+          "start": "2022-07-01T08:28:22+01:00",
+          "end": "2022-07-01T08:51:54+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-ac4e-9e2a2be96215",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "428211000124100",
+              "display": "Assessment of substance use (procedure)"
+            }
+          ],
+          "text": "Assessment of substance use (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-e82b-8426049cad5f"
+        },
+        "performedPeriod": {
+          "start": "2022-07-01T08:51:54+01:00",
+          "end": "2022-07-01T09:05:09+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-59ab-cf49b4b14518",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "713106006",
+              "display": "Screening for drug abuse (procedure)"
+            }
+          ],
+          "text": "Screening for drug abuse (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-e82b-8426049cad5f"
+        },
+        "performedPeriod": {
+          "start": "2022-07-01T09:05:09+01:00",
+          "end": "2022-07-01T09:33:38+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-6d2d-a04f8c4f0e39",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "430193006",
+              "display": "Medication reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-0628-d78e690711ea"
+        },
+        "performedPeriod": {
+          "start": "2025-07-04T07:37:48+01:00",
+          "end": "2025-07-04T07:52:48+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-08e9-85ed23b576ed",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "710824005",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-0628-d78e690711ea"
+        },
+        "performedPeriod": {
+          "start": "2025-07-04T07:37:48+01:00",
+          "end": "2025-07-04T08:24:50+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-7fce-4cd9bb32fd45",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "171207006",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-0628-d78e690711ea"
+        },
+        "performedPeriod": {
+          "start": "2025-07-04T08:24:50+01:00",
+          "end": "2025-07-04T08:35:34+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87bd3098-ebf5-25f7-4552-7abd6b5a0d99",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "171207006",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-f412-b0795a501c6e"
+        },
+        "encounter": {
+          "reference": "urn:uuid:87bd3098-ebf5-25f7-0628-d78e690711ea"
+        },
+        "performedPeriod": {
+          "start": "2025-07-04T08:35:34+01:00",
+          "end": "2025-07-04T08:59:45+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|86353a1a-0f7c-346d-a22d-d5ee1e066c45",
+          "display": "GIFFORD STREET WELLNESS CENTER LLC"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "8f234914-8cee-7336-1015-62b19cbfd870",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "8f234914-8cee-7336-1015-62b19cbfd870"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "32485007",
+                "display": "Hospital admission (procedure)"
+              }
+            ],
+            "text": "Hospital admission (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:8f234914-8cee-7336-5a54-45ba4b72e9a3",
+          "display": "Ms. Kerrie266 Hudson301"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "primary performer"
+              }
+            ],
+            "period": {
+              "start": "2019-09-17T22:55:20+01:00",
+              "end": "2019-09-22T23:10:20+01:00"
+            },
+            "individual": {
+              "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999873794",
+              "display": "Dr. Reyes140 Sauer652"
+            }
+          }
+        ],
+        "period": {
+          "start": "2019-09-17T22:55:20+01:00",
+          "end": "2019-09-22T23:10:20+01:00"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "25675004",
+                "display": "Patient transfer to skilled nursing facility (procedure)"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "location": {
+              "reference": "Location?identifier=https://github.com/synthetichealth/synthea|3bd8ce17-4109-30c3-b99a-e31dcc949e49",
+              "display": "1200 SUFFIELD STREET OPERATOR LLC"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|3e16ee4b-2dc7-3e29-ab5b-0ce980c362b1",
+          "display": "1200 SUFFIELD STREET OPERATOR LLC"
+        }
+      }
+    }
+  ]
+}

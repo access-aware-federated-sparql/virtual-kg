@@ -1,0 +1,1075 @@
+{
+  "level": "server_3",
+  "name": "webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225",
+  "webid": "http://localhost:3000/practitioner_21ea8e2a-6278-36f3-b502-7ca06c0a97cc/profile/card#me",
+  "predicates": {
+    "http://example.org/synthea/vocab/allergyName": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/authoredOn": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/birthDate": [
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/",
+        "pso": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/",
+        "pso": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/",
+        "pso": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/",
+        "pso": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/",
+        "pso": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/",
+        "pso": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/",
+        "pso": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/",
+        "pso": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/",
+        "pso": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/",
+        "pso": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/",
+        "pso": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/",
+        "pso": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/",
+        "pso": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/carePlanCategory": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/city": [
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/",
+        "pso": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/",
+        "pso": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/",
+        "pso": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/",
+        "pso": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/",
+        "pso": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/",
+        "pso": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/",
+        "pso": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/",
+        "pso": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/",
+        "pso": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/",
+        "pso": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/",
+        "pso": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/",
+        "pso": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/",
+        "pso": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/clinicalStatus": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/conditionName": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/context": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/country": [
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/",
+        "pso": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/",
+        "pso": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/",
+        "pso": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/",
+        "pso": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/",
+        "pso": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/",
+        "pso": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/",
+        "pso": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/",
+        "pso": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/",
+        "pso": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/",
+        "pso": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/",
+        "pso": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/",
+        "pso": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/",
+        "pso": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/created": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/date": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/documentType": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/effectiveDateTime": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/encounter": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/encounterType": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/endDate": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/firstName": [
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/",
+        "pso": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/",
+        "pso": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/",
+        "pso": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/",
+        "pso": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/",
+        "pso": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/",
+        "pso": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/",
+        "pso": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/",
+        "pso": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/",
+        "pso": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/",
+        "pso": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/",
+        "pso": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/",
+        "pso": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/",
+        "pso": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/gender": [
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/",
+        "pso": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/",
+        "pso": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/",
+        "pso": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/",
+        "pso": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/",
+        "pso": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/",
+        "pso": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/",
+        "pso": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/",
+        "pso": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/",
+        "pso": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/",
+        "pso": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/",
+        "pso": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/",
+        "pso": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/",
+        "pso": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/intent": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/lastName": [
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/",
+        "pso": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/",
+        "pso": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/",
+        "pso": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/",
+        "pso": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/",
+        "pso": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/",
+        "pso": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/",
+        "pso": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/",
+        "pso": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/",
+        "pso": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/",
+        "pso": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/",
+        "pso": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/",
+        "pso": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/",
+        "pso": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/maritalStatus": [
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/",
+        "pso": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/",
+        "pso": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/",
+        "pso": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/",
+        "pso": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/",
+        "pso": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/",
+        "pso": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/",
+        "pso": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/",
+        "pso": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/",
+        "pso": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/",
+        "pso": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/",
+        "pso": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/",
+        "pso": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/",
+        "pso": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/medicationName": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/name": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/",
+        "pso": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/",
+        "pso": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/",
+        "pso": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/",
+        "pso": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/",
+        "pso": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/",
+        "pso": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/",
+        "pso": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/",
+        "pso": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/",
+        "pso": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/",
+        "pso": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/",
+        "pso": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/",
+        "pso": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/",
+        "pso": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/numberOfInstances": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/numberOfSeries": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/observationName": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/occurrenceDateTime": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/onsetDateTime": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/participant": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/patient": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/patientId": [
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/",
+        "pso": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/",
+        "pso": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/",
+        "pso": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/",
+        "pso": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/",
+        "pso": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/",
+        "pso": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/",
+        "pso": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/",
+        "pso": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/",
+        "pso": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/",
+        "pso": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/",
+        "pso": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/",
+        "pso": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/",
+        "pso": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/procedureName": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/provider": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/recordedDate": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/reportName": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/requester": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/resourceId": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/result": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/resultDisplay": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/serviceProvider": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/startDate": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/started": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/state": [
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/",
+        "pso": "http://localhost:3003/patient_pods/patient_0c028d86-2bb4-d4b9-4536-16eac602a770/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/",
+        "pso": "http://localhost:3003/patient_pods/patient_17af7ad5-2858-63fb-9455-7c03a15f77ca/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/",
+        "pso": "http://localhost:3003/patient_pods/patient_33e5027f-9cb1-e634-5822-1b1067c95970/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/",
+        "pso": "http://localhost:3003/patient_pods/patient_3f1eefca-541b-19e9-7bd6-4bc99b0767d5/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/",
+        "pso": "http://localhost:3003/patient_pods/patient_8164813a-9557-9aed-a461-b87cf1b499ed/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/",
+        "pso": "http://localhost:3003/patient_pods/patient_918dcc58-4688-5a58-4eca-310d3b0c51ad/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/",
+        "pso": "http://localhost:3003/patient_pods/patient_b0a6163d-477f-ddc9-9858-4cd53b9d7b66/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/",
+        "pso": "http://localhost:3003/patient_pods/patient_b301c624-1a79-0931-5543-dffad6387930/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/",
+        "pso": "http://localhost:3003/patient_pods/patient_b30ec001-9432-96b6-b891-367f44433210/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/",
+        "pso": "http://localhost:3003/patient_pods/patient_b3c8b338-a4be-ebf1-d388-34d752f3b8c6/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/",
+        "pso": "http://localhost:3003/patient_pods/patient_cd8e3fa6-7661-c233-a1b0-ab801231ff03/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/",
+        "pso": "http://localhost:3003/patient_pods/patient_e70bfbaa-eb0a-cd91-c0be-8182eaac9dcd/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/",
+        "pso": "http://localhost:3003/patient_pods/patient_fe6aab5a-6f28-6678-1930-98595b5cd528/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/status": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/subject": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/unit": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/use": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0114_CEDAR_VIEW_OPERATOR_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/",
+        "pso": "http://localhost:3003/facility_pods/Long_Term_Care/FAC0320_LOWN_ACQUISITION_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/vaccineName": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/value": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/verificationStatus": [
+      {
+        "pod": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3003/facility_pods/Community_Health/FAC0234_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/",
+        "pso": "http://localhost:3003/facility_pods/Hospital/FAC0264_HOLY_FAMILY_HOSPITAL/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ]
+  }
+}

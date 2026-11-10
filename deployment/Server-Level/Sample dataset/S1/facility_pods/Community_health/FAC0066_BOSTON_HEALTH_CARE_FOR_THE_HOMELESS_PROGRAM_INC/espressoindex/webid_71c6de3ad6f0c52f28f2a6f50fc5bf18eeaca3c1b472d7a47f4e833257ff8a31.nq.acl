@@ -1,0 +1,8 @@
+@prefix acl: <http://www.w3.org/ns/auth/acl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<#authorization>
+    a acl:Authorization ;
+    acl:accessTo <http://localhost:3001/facility_pods/Community_Health/FAC0066_BOSTON_HEALTH_CARE_FOR_THE_HOMELESS_PROGRAM_INC/espressoindex/webid_71c6de3ad6f0c52f28f2a6f50fc5bf18eeaca3c1b472d7a47f4e833257ff8a31.nq> ;
+    acl:agent <http://localhost:3000/practitioner_4ebc1dc5-b6e8-3702-9430-0fed51cb9fbb/profile/card#me> ;
+    acl:mode acl:Read .

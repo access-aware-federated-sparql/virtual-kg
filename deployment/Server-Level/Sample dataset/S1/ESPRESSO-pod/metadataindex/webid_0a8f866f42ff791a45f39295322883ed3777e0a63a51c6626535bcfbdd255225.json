@@ -1,0 +1,601 @@
+{
+  "level": "server_1",
+  "name": "webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225",
+  "webid": "http://localhost:3000/practitioner_21ea8e2a-6278-36f3-b502-7ca06c0a97cc/profile/card#me",
+  "predicates": {
+    "http://example.org/synthea/vocab/authoredOn": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/carePlanCategory": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/clinicalStatus": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/conditionName": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/created": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/date": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/documentType": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/effectiveDateTime": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/encounter": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/encounterType": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/endDate": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/intent": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/medicationName": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/observationName": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/occurrenceDateTime": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/onsetDateTime": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/participant": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/patient": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/procedureName": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/provider": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/recordedDate": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/reportName": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/requester": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/resourceId": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/result": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/resultDisplay": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/serviceProvider": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/startDate": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/status": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/subject": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/unit": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/use": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/vaccineName": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/value": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/verificationStatus": [
+      {
+        "pod": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/",
+        "pso": "http://localhost:3001/facility_pods/Community_Health/FAC0317_LOWELL_COMMUNITY_HEALTH_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/",
+        "pso": "http://localhost:3001/facility_pods/Primary_Care/FAC0411_PLEASANT_VALLEY_INTERNISTS_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/",
+        "pso": "http://localhost:3001/facility_pods/Urgent_Care/FAC0350_MIDDLETON_FAMILY_MEDICINE_URGENT_CARE_LLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/",
+        "pso": "http://localhost:3001/facility_pods/Wellness_Services/FAC0065_BLUESKIES_WELLNESS_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ]
+  }
+}

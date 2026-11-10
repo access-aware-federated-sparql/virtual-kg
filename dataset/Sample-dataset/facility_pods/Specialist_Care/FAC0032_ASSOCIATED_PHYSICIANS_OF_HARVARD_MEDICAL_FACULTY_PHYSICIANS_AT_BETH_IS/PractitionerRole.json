@@ -1,0 +1,81 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "b73ea038-5ff8-e887-d991-3be4a26985b9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+          ]
+        },
+        "practitioner": {
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999985895"
+          },
+          "display": "Dr. Patrina117 Strosin214"
+        },
+        "organization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "19a3afba-b409-3650-a0ab-f3faf6e391ef"
+          },
+          "display": "ASSOCIATED PHYSICIANS OF HARVARD MEDICAL FACULTY PHYSICIANS AT BETH IS"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "location": [
+          {
+            "identifier": {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "5e756e0c-7c6b-37c0-8bd5-eebe86c41e5e"
+            },
+            "display": "ASSOCIATED PHYSICIANS OF HARVARD MEDICAL FACULTY PHYSICIANS AT BETH IS"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "6176964600"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct",
+                "valueBoolean": true
+              }
+            ],
+            "system": "email",
+            "value": "Patrina117.Strosin214@example.com",
+            "use": "work"
+          }
+        ]
+      }
+    }
+  ]
+}

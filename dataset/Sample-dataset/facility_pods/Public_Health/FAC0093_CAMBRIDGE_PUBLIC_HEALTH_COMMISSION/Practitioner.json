@@ -1,0 +1,66 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "18742473-7763-3789-9a58-cb322ab51e0a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 371
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999993196"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Greenfelder433",
+            "given": [
+              "Nicholas495"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct",
+                "valueBoolean": true
+              }
+            ],
+            "system": "email",
+            "value": "Nicholas495.Greenfelder433@example.com",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "1493 CAMBRIDGE ST"
+            ],
+            "city": "SOMERVILLE",
+            "state": "MA",
+            "postalCode": "021452935",
+            "country": "US"
+          }
+        ],
+        "gender": "male"
+      }
+    }
+  ]
+}

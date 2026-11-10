@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "12c1fbf8-79b6-3c81-9877-3d31f40e23d6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "12c1fbf8-79b6-3c81-9877-3d31f40e23d6"
+          }
+        ],
+        "status": "active",
+        "name": "SPAULDING REHABILITATION HOSPITAL",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "6177206400"
+          }
+        ],
+        "address": {
+          "line": [
+            "300 FIRST AVENUE"
+          ],
+          "city": "WESTBOROUGH",
+          "state": "MA",
+          "postalCode": "015812831",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -71.6129907,
+          "latitude": 42.2694308
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "71f4c23f-7559-31ff-8f42-a672e80b85a2"
+          },
+          "display": "SPAULDING REHABILITATION HOSPITAL"
+        }
+      }
+    }
+  ]
+}

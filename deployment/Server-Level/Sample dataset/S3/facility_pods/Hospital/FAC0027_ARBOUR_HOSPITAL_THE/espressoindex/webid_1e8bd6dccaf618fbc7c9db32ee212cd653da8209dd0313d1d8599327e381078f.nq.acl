@@ -1,0 +1,8 @@
+@prefix acl: <http://www.w3.org/ns/auth/acl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<#authorization>
+    a acl:Authorization ;
+    acl:accessTo <http://localhost:3003/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/espressoindex/webid_1e8bd6dccaf618fbc7c9db32ee212cd653da8209dd0313d1d8599327e381078f.nq> ;
+    acl:agent <http://localhost:3000/researcher_r1/profile/card#me> ;
+    acl:mode acl:Read .

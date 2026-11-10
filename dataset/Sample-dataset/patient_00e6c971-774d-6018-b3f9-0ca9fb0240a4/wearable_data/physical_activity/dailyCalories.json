@@ -1,0 +1,232 @@
+{
+  "resource_type": "WearableData",
+  "category": "physical_activity",
+  "measurement_type": "dailyCalories",
+  "synthea_patient_id": "00e6c971-774d-6018-b3f9-0ca9fb0240a4",
+  "fitbit_participant_id": "4319703577",
+  "linkage_type": "synthetic",
+  "source_dataset": "FitBit Fitness Tracker Data",
+  "source_files": [
+    "physical_activity/4.12.16-5.12.16/dailyCalories_merged.csv"
+  ],
+  "record_count": 31,
+  "records": [
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/12/2016",
+      "Calories": "2115",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/13/2016",
+      "Calories": "2135",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/14/2016",
+      "Calories": "2302",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/15/2016",
+      "Calories": "1985",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/16/2016",
+      "Calories": "1884",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/17/2016",
+      "Calories": "1464",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/18/2016",
+      "Calories": "1632",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/19/2016",
+      "Calories": "2200",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/20/2016",
+      "Calories": "2220",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/21/2016",
+      "Calories": "1792",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/22/2016",
+      "Calories": "1886",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/23/2016",
+      "Calories": "1945",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/24/2016",
+      "Calories": "1880",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/25/2016",
+      "Calories": "2314",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/26/2016",
+      "Calories": "2236",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/27/2016",
+      "Calories": "2324",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/28/2016",
+      "Calories": "2367",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/29/2016",
+      "Calories": "2175",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/30/2016",
+      "Calories": "2092",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/1/2016",
+      "Calories": "1593",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/2/2016",
+      "Calories": "2270",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/3/2016",
+      "Calories": "2235",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/4/2016",
+      "Calories": "2282",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/5/2016",
+      "Calories": "2530",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/6/2016",
+      "Calories": "2266",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/7/2016",
+      "Calories": "2158",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/8/2016",
+      "Calories": "1792",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/9/2016",
+      "Calories": "2345",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/10/2016",
+      "Calories": "2260",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/11/2016",
+      "Calories": "2232",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/12/2016",
+      "Calories": "257",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailyCalories_merged.csv"
+    }
+  ]
+}

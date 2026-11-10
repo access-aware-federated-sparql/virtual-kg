@@ -1,0 +1,179 @@
+{
+  "level": "overlay",
+  "name": "webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a",
+  "webid": "http://localhost:3000/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/profile/card#me",
+  "predicates": {
+    "http://example.org/synthea/vocab/authoredOn": [
+      "S3"
+    ],
+    "http://example.org/synthea/vocab/birthDate": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/carePlanCategory": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/city": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/clinicalStatus": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/conditionName": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/country": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/created": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/date": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/documentType": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/effectiveDateTime": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/encounter": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/encounterType": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/endDate": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/firstName": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/gender": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/intent": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/lastName": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/maritalStatus": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/medicationName": [
+      "S3"
+    ],
+    "http://example.org/synthea/vocab/name": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/numberOfInstances": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/numberOfSeries": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/observationName": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/occurrenceDateTime": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/onsetDateTime": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/participant": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/patient": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/patientId": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/procedureName": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/provider": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/recordedDate": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/reportName": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/requester": [
+      "S3"
+    ],
+    "http://example.org/synthea/vocab/resourceId": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/result": [
+      "S3"
+    ],
+    "http://example.org/synthea/vocab/resultDisplay": [
+      "S3"
+    ],
+    "http://example.org/synthea/vocab/serviceProvider": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/startDate": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/started": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/state": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/status": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/subject": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/unit": [
+      "S3"
+    ],
+    "http://example.org/synthea/vocab/use": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/vaccineName": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/value": [
+      "S3"
+    ],
+    "http://example.org/synthea/vocab/verificationStatus": [
+      "S3",
+      "S4"
+    ]
+  }
+}

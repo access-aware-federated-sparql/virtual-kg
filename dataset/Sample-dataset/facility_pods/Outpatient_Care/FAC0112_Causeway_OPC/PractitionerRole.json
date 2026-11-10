@@ -1,0 +1,81 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "7d546462-2f4a-60bc-e86e-39583ae9c292",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+          ]
+        },
+        "practitioner": {
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999984799"
+          },
+          "display": "Dr. Donovan745 Daugherty69"
+        },
+        "organization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "d5920b72-ac1a-3ec4-81ca-e3b75cb7aadd"
+          },
+          "display": "Causeway OPC"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "location": [
+          {
+            "identifier": {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "9cb921a3-508a-38a1-9a85-ee15fd2ff98a"
+            },
+            "display": "Causeway OPC"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "800-865-3384"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct",
+                "valueBoolean": true
+              }
+            ],
+            "system": "email",
+            "value": "Donovan745.Daugherty69@example.com",
+            "use": "work"
+          }
+        ]
+      }
+    }
+  ]
+}

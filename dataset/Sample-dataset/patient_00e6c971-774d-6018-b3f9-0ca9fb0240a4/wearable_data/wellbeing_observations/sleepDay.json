@@ -1,0 +1,249 @@
+{
+  "resource_type": "WearableData",
+  "category": "wellbeing_observations",
+  "measurement_type": "sleepDay",
+  "synthea_patient_id": "00e6c971-774d-6018-b3f9-0ca9fb0240a4",
+  "fitbit_participant_id": "4319703577",
+  "linkage_type": "synthetic",
+  "source_dataset": "FitBit Fitness Tracker Data",
+  "source_files": [
+    "wellbeing_observations/4.12.16-5.12.16/sleepDay_merged.csv"
+  ],
+  "record_count": 26,
+  "records": [
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/14/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "535",
+      "TotalTimeInBed": "557",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/15/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "465",
+      "TotalTimeInBed": "491",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/16/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "506",
+      "TotalTimeInBed": "522",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/18/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "515",
+      "TotalTimeInBed": "551",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/19/2016 12:00:00 AM",
+      "TotalSleepRecords": "2",
+      "TotalMinutesAsleep": "461",
+      "TotalTimeInBed": "498",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/20/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "523",
+      "TotalTimeInBed": "543",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/21/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "59",
+      "TotalTimeInBed": "65",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/22/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "533",
+      "TotalTimeInBed": "550",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/23/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "692",
+      "TotalTimeInBed": "722",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/24/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "467",
+      "TotalTimeInBed": "501",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/25/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "488",
+      "TotalTimeInBed": "506",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/26/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "505",
+      "TotalTimeInBed": "516",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/27/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "286",
+      "TotalTimeInBed": "307",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/28/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "497",
+      "TotalTimeInBed": "522",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/29/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "523",
+      "TotalTimeInBed": "546",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "4/30/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "490",
+      "TotalTimeInBed": "516",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "5/1/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "484",
+      "TotalTimeInBed": "500",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "5/2/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "478",
+      "TotalTimeInBed": "506",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "5/3/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "474",
+      "TotalTimeInBed": "512",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "5/6/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "450",
+      "TotalTimeInBed": "491",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "5/7/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "507",
+      "TotalTimeInBed": "530",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "5/8/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "602",
+      "TotalTimeInBed": "638",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "5/9/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "535",
+      "TotalTimeInBed": "565",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "5/10/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "487",
+      "TotalTimeInBed": "517",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "5/11/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "529",
+      "TotalTimeInBed": "558",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "SleepDay": "5/12/2016 12:00:00 AM",
+      "TotalSleepRecords": "1",
+      "TotalMinutesAsleep": "302",
+      "TotalTimeInBed": "321",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "sleepDay_merged.csv"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Q07 — Practitioner — Medium
+#What medication requests have been recorded for a patient under my care, by whom, and during #which encounters?
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+
+SELECT ?medicationRequest ?status ?authoredOn
+       ?requester ?encounter ?encounterType
+WHERE {
+  GRAPH ?gMed {
+    ?medicationRequest
+      syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+      syn:status ?status ;
+      syn:authoredOn ?authoredOn ;
+      syn:encounter ?encounter ;
+      syn:requester ?requester .
+  }
+
+  GRAPH ?gEnc {
+    ?encounter
+      syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+      syn:encounterType ?encounterType .
+  }
+}
+ORDER BY ?authoredOn

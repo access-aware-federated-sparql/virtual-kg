@@ -1,0 +1,741 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-c3b9-7930c619279f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "224299000",
+              "display": "Received higher education (finding)"
+            }
+          ],
+          "text": "Received higher education (finding)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-6bf2-e109a40ff436"
+        },
+        "onsetDateTime": "1992-10-22T23:08:30+01:00",
+        "recordedDate": "1992-10-22T23:08:30+01:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-6665-9b84be019a14",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "714628002",
+              "display": "Prediabetes (finding)"
+            }
+          ],
+          "text": "Prediabetes (finding)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-f36d-615ace717b0b"
+        },
+        "onsetDateTime": "1999-11-04T21:33:24+00:00",
+        "recordedDate": "1999-11-04T21:33:24+00:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-d3e7-0ab034c8d957",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "160903007",
+              "display": "Full-time employment (finding)"
+            }
+          ],
+          "text": "Full-time employment (finding)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-e493-47c809ccfde2"
+        },
+        "onsetDateTime": "2011-11-17T22:04:09+00:00",
+        "abatementDateTime": "2018-09-13T23:24:19+01:00",
+        "recordedDate": "2011-11-17T22:04:09+00:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-031b-39ca4052a15c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "271737000",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia (disorder)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-d3a9-19cbf1ec587a"
+        },
+        "onsetDateTime": "2016-09-08T22:33:24+01:00",
+        "recordedDate": "2016-09-08T22:33:24+01:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-44d7-a65c1664dd59",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "314529007",
+              "display": "Medication review due (situation)"
+            }
+          ],
+          "text": "Medication review due (situation)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-80ea-eccb5dff8f5b"
+        },
+        "onsetDateTime": "2018-09-13T22:33:24+01:00",
+        "abatementDateTime": "2018-09-13T22:33:24+01:00",
+        "recordedDate": "2018-09-13T22:33:24+01:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-5280-65a839f8d396",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "162864005",
+              "display": "Body mass index 30+ - obesity (finding)"
+            }
+          ],
+          "text": "Body mass index 30+ - obesity (finding)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-80ea-eccb5dff8f5b"
+        },
+        "onsetDateTime": "2018-09-13T22:33:24+01:00",
+        "recordedDate": "2018-09-13T22:33:24+01:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-ae8e-99b205f10b10",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "160904001",
+              "display": "Part-time employment (finding)"
+            }
+          ],
+          "text": "Part-time employment (finding)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-80ea-eccb5dff8f5b"
+        },
+        "onsetDateTime": "2018-09-13T23:24:19+01:00",
+        "abatementDateTime": "2024-08-29T23:10:17+01:00",
+        "recordedDate": "2018-09-13T23:24:19+01:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-2d73-32e666c1d9d6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73595000",
+              "display": "Stress (finding)"
+            }
+          ],
+          "text": "Stress (finding)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-80ea-eccb5dff8f5b"
+        },
+        "onsetDateTime": "2018-09-13T23:24:19+01:00",
+        "abatementDateTime": "2020-09-17T23:04:52+01:00",
+        "recordedDate": "2018-09-13T23:24:19+01:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-3e1f-9b0b7730ab5d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "314529007",
+              "display": "Medication review due (situation)"
+            }
+          ],
+          "text": "Medication review due (situation)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-10ed-95c14b3d6528"
+        },
+        "onsetDateTime": "2020-09-17T22:33:24+01:00",
+        "abatementDateTime": "2022-09-22T22:33:24+01:00",
+        "recordedDate": "2020-09-17T22:33:24+01:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-602b-24fd98962c4b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "314529007",
+              "display": "Medication review due (situation)"
+            }
+          ],
+          "text": "Medication review due (situation)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-70ec-c105b38282d5"
+        },
+        "onsetDateTime": "2024-08-29T22:33:24+01:00",
+        "abatementDateTime": "2025-09-04T22:33:24+01:00",
+        "recordedDate": "2024-08-29T22:33:24+01:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-a7af-302967f16f64",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "160903007",
+              "display": "Full-time employment (finding)"
+            }
+          ],
+          "text": "Full-time employment (finding)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-70ec-c105b38282d5"
+        },
+        "onsetDateTime": "2024-08-29T23:10:17+01:00",
+        "recordedDate": "2024-08-29T23:10:17+01:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-ff54-32d679b4be44",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "resolved"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "73595000",
+              "display": "Stress (finding)"
+            }
+          ],
+          "text": "Stress (finding)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-70ec-c105b38282d5"
+        },
+        "onsetDateTime": "2024-08-29T23:10:17+01:00",
+        "abatementDateTime": "2025-09-04T23:14:55+01:00",
+        "recordedDate": "2024-08-29T23:10:17+01:00"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "37d93beb-05dd-e3c1-9b68-2dfd172ae0ad",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "encounter-diagnosis",
+                "display": "Encounter Diagnosis"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80583007",
+              "display": "Severe anxiety (panic) (finding)"
+            }
+          ],
+          "text": "Severe anxiety (panic) (finding)"
+        },
+        "subject": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-9532-8e3c4c663080"
+        },
+        "encounter": {
+          "reference": "urn:uuid:37d93beb-05dd-e3c1-d50b-b430c055f183"
+        },
+        "onsetDateTime": "2025-09-04T23:40:50+01:00",
+        "recordedDate": "2025-09-04T23:40:50+01:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "6edc1824-658f-3dc6-9889-1a3504485061",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "6edc1824-658f-3dc6-9889-1a3504485061"
+          }
+        ],
+        "status": "active",
+        "name": "ANNA JAQUES HOSPITAL SUBACUTE UNIT",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "9784631000"
+          }
+        ],
+        "address": {
+          "line": [
+            "25 HIGHLAND AVE"
+          ],
+          "city": "NEWBURYPORT",
+          "state": "MA",
+          "postalCode": "019503867",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -70.89091645747592,
+          "latitude": 42.81369325
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "ecd3b321-0a8a-3ce6-81f0-982dd77fce43"
+          },
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    }
+  ]
+}

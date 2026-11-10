@@ -1,0 +1,52 @@
+# Q08 — Practitioner — Complex
+# Which healthcare organisations have provided care for a patient,
+# and what clinical events were recorded across those organisations?
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+
+SELECT ?organization ?organizationName
+       ?encounter ?encounterType
+       ?event ?eventType ?eventName
+WHERE {
+  GRAPH ?gEnc {
+    ?encounter
+      syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+      syn:serviceProvider ?organization ;
+      syn:encounterType ?encounterType .
+  }
+
+  GRAPH ?gOrg {
+    ?organization syn:name ?organizationName .
+  }
+
+  {
+    GRAPH ?gCond {
+      ?event
+        syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+        syn:encounter ?encounter ;
+        syn:conditionName ?eventName .
+    }
+    BIND("Condition" AS ?eventType)
+  }
+  UNION
+  {
+    GRAPH ?gObs {
+      ?event
+        syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+        syn:encounter ?encounter ;
+        syn:observationName ?eventName .
+    }
+    BIND("Observation" AS ?eventType)
+  }
+  UNION
+  {
+    GRAPH ?gProc {
+      ?event
+        syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+        syn:encounter ?encounter ;
+        syn:procedureName ?eventName .
+    }
+    BIND("Procedure" AS ?eventType)
+  }
+}
+ORDER BY ?organizationName ?encounter ?eventType

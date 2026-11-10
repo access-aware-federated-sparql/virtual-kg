@@ -1,0 +1,81 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "33ea8f48-3011-60f9-1c22-848c4f4e9127",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+          ]
+        },
+        "practitioner": {
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999907196"
+          },
+          "display": "Dr. Rueben647 Okuneva707"
+        },
+        "organization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "8bf5325a-c11b-35c4-b07d-17a5aeba8353"
+          },
+          "display": "BEACON HOSPICE, AN AMYEDISYS COMPANY"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "location": [
+          {
+            "identifier": {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "8185579f-face-3a05-8ef5-de82996f012e"
+            },
+            "display": "BEACON HOSPICE, AN AMYEDISYS COMPANY"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "4132051229"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct",
+                "valueBoolean": true
+              }
+            ],
+            "system": "email",
+            "value": "Rueben647.Okuneva707@example.com",
+            "use": "work"
+          }
+        ]
+      }
+    }
+  ]
+}

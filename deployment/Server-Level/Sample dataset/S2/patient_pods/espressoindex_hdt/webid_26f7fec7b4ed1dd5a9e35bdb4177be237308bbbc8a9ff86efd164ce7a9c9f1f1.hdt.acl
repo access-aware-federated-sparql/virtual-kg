@@ -1,0 +1,7 @@
+@prefix ns1: <http://www.w3.org/ns/auth/acl#> .
+
+<http://localhost:3002/patient_pods/patient_0bd4569e-1f1c-2158-9825-350e9fbe766c/espressoindex_hdt/webid_26f7fec7b4ed1dd5a9e35bdb4177be237308bbbc8a9ff86efd164ce7a9c9f1f1.hdt.acl#read-0> a ns1:Authorization ;
+    ns1:accessTo <http://localhost:3002/patient_pods/patient_0bd4569e-1f1c-2158-9825-350e9fbe766c/espressoindex_hdt/webid_26f7fec7b4ed1dd5a9e35bdb4177be237308bbbc8a9ff86efd164ce7a9c9f1f1.hdt> ;
+    ns1:agent <http://localhost:3000/patient_0bd4569e-1f1c-2158-9825-350e9fbe766c/profile/card#me> ;
+    ns1:mode ns1:Read .
+

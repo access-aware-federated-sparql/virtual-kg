@@ -1,0 +1,72 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "bac9dc0c-cb0f-3fa6-aa12-819dd0fb922a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 371
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+            "valueInteger": 0
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+            "valueInteger": 0
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+            "valueInteger": 0
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "bac9dc0c-cb0f-3fa6-aa12-819dd0fb922a"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                "code": "prov",
+                "display": "Healthcare Provider"
+              }
+            ],
+            "text": "Healthcare Provider"
+          }
+        ],
+        "name": "CAMBRIDGE PUBLIC HEALTH COMMISSION",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "6176651000"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "1493 CAMBRIDGE ST"
+            ],
+            "city": "SOMERVILLE",
+            "state": "MA",
+            "postalCode": "021452935",
+            "country": "US"
+          }
+        ]
+      }
+    }
+  ]
+}

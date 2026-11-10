@@ -1,0 +1,232 @@
+{
+  "resource_type": "WearableData",
+  "category": "physical_activity",
+  "measurement_type": "dailySteps",
+  "synthea_patient_id": "00e6c971-774d-6018-b3f9-0ca9fb0240a4",
+  "fitbit_participant_id": "4319703577",
+  "linkage_type": "synthetic",
+  "source_dataset": "FitBit Fitness Tracker Data",
+  "source_files": [
+    "physical_activity/4.12.16-5.12.16/dailySteps_merged.csv"
+  ],
+  "record_count": 31,
+  "records": [
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/12/2016",
+      "StepTotal": "7753",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/13/2016",
+      "StepTotal": "8204",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/14/2016",
+      "StepTotal": "10210",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/15/2016",
+      "StepTotal": "5664",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/16/2016",
+      "StepTotal": "4744",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/17/2016",
+      "StepTotal": "29",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/18/2016",
+      "StepTotal": "2276",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/19/2016",
+      "StepTotal": "8925",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/20/2016",
+      "StepTotal": "8954",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/21/2016",
+      "StepTotal": "3702",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/22/2016",
+      "StepTotal": "4500",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/23/2016",
+      "StepTotal": "4935",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/24/2016",
+      "StepTotal": "4081",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/25/2016",
+      "StepTotal": "9259",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/26/2016",
+      "StepTotal": "9899",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/27/2016",
+      "StepTotal": "10780",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/28/2016",
+      "StepTotal": "10817",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/29/2016",
+      "StepTotal": "7990",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "4/30/2016",
+      "StepTotal": "8221",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/1/2016",
+      "StepTotal": "1251",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/2/2016",
+      "StepTotal": "9261",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/3/2016",
+      "StepTotal": "9648",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/4/2016",
+      "StepTotal": "10429",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/5/2016",
+      "StepTotal": "13658",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/6/2016",
+      "StepTotal": "9524",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/7/2016",
+      "StepTotal": "7937",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/8/2016",
+      "StepTotal": "3672",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/9/2016",
+      "StepTotal": "10378",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/10/2016",
+      "StepTotal": "9487",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/11/2016",
+      "StepTotal": "9129",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "ActivityDay": "5/12/2016",
+      "StepTotal": "17",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "dailySteps_merged.csv"
+    }
+  ]
+}

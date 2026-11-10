@@ -1,0 +1,26 @@
+# Q06 — Practitioner — Medium
+# What diagnostic reports and associated observation results
+# are available for a patient under my care?
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+
+SELECT ?report ?reportName ?reportDate
+       ?observation ?observationName ?value ?unit
+WHERE {
+  GRAPH ?gReport {
+    ?report
+      syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+      syn:reportName ?reportName ;
+      syn:effectiveDateTime ?reportDate ;
+      syn:result ?observation .
+  }
+
+  GRAPH ?gObs {
+    ?observation
+      syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+      syn:observationName ?observationName ;
+      syn:value ?value ;
+      syn:unit ?unit .
+  }
+}
+ORDER BY ?reportDate

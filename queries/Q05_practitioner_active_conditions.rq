@@ -1,0 +1,16 @@
+# Q05 — Practitioner — Simple
+# What active conditions are recorded for a patient under my care?
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+
+SELECT ?condition ?conditionName ?onset
+WHERE {
+  GRAPH ?g {
+    ?condition
+      syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+      syn:conditionName ?conditionName ;
+      syn:clinicalStatus "active" ;
+      syn:onsetDateTime ?onset .
+  }
+}
+ORDER BY ?onset

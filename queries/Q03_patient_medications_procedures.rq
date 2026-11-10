@@ -1,0 +1,36 @@
+# Q03 — Patient — Medium
+# What medications and procedures have been recorded
+# during my healthcare encounters?
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+
+SELECT ?encounter ?encounterType
+       ?event ?eventType ?eventName
+WHERE {
+  GRAPH ?gEnc {
+    ?encounter
+      syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+      syn:encounterType ?encounterType .
+  }
+
+  {
+    GRAPH ?gMed {
+      ?event
+        syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+        syn:encounter ?encounter ;
+        syn:medicationName ?eventName .
+    }
+    BIND("MedicationRequest" AS ?eventType)
+  }
+  UNION
+  {
+    GRAPH ?gProc {
+      ?event
+        syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+        syn:encounter ?encounter ;
+        syn:procedureName ?eventName .
+    }
+    BIND("Procedure" AS ?eventType)
+  }
+}
+ORDER BY ?encounter ?eventType

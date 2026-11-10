@@ -1,0 +1,66 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "ae011850-a463-31e4-a7ac-863ece55d2f7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 111
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999994095"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Lesch175",
+            "given": [
+              "Tracie996"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct",
+                "valueBoolean": true
+              }
+            ],
+            "system": "email",
+            "value": "Tracie996.Lesch175@example.com",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "25 HIGHLAND AVE"
+            ],
+            "city": "NEWBURYPORT",
+            "state": "MA",
+            "postalCode": "019503867",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      }
+    }
+  ]
+}

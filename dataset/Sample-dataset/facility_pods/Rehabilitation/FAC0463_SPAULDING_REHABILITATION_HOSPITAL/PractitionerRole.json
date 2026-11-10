@@ -1,0 +1,81 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "d90d1388-9869-b120-7397-41b2cf00aaa8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+          ]
+        },
+        "practitioner": {
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999996298"
+          },
+          "display": "Dr. Clayton230 Jast432"
+        },
+        "organization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "71f4c23f-7559-31ff-8f42-a672e80b85a2"
+          },
+          "display": "SPAULDING REHABILITATION HOSPITAL"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "location": [
+          {
+            "identifier": {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "12c1fbf8-79b6-3c81-9877-3d31f40e23d6"
+            },
+            "display": "SPAULDING REHABILITATION HOSPITAL"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "6177206400"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct",
+                "valueBoolean": true
+              }
+            ],
+            "system": "email",
+            "value": "Clayton230.Jast432@example.com",
+            "use": "work"
+          }
+        ]
+      }
+    }
+  ]
+}

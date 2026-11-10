@@ -1,0 +1,72 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "dd9914b0-9491-3330-a890-d34e95e497ea",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 191
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+            "valueInteger": 1431
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+            "valueInteger": 387
+          },
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+            "valueInteger": 186
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "dd9914b0-9491-3330-a890-d34e95e497ea"
+          }
+        ],
+        "active": true,
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+                "code": "prov",
+                "display": "Healthcare Provider"
+              }
+            ],
+            "text": "Healthcare Provider"
+          }
+        ],
+        "name": "CHILD & FAMILY SERVICES, INC.",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "5089968572"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "1061 PLEASANT ST"
+            ],
+            "city": "NEW BEDFORD",
+            "state": "MA",
+            "postalCode": "027406728",
+            "country": "US"
+          }
+        ]
+      }
+    }
+  ]
+}

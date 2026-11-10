@@ -1,0 +1,66 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "4886ca1f-de78-3975-9f21-b425b03678d4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+            "valueInteger": 29
+          }
+        ],
+        "identifier": [
+          {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999928093"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gibson10",
+            "given": [
+              "Genevie117"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct",
+                "valueBoolean": true
+              }
+            ],
+            "system": "email",
+            "value": "Genevie117.Gibson10@example.com",
+            "use": "work"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "160 MERRIMACK STREET, SUITE 1"
+            ],
+            "city": "METHUEN",
+            "state": "MA",
+            "postalCode": "018446117",
+            "country": "US"
+          }
+        ],
+        "gender": "female"
+      }
+    }
+  ]
+}

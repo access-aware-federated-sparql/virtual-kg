@@ -1,0 +1,43 @@
+ESPRESSO FOUR-STRATEGY MATCHING AUDIT
+========================================================================
+
+Matched configurations: 818
+Excluded configurations: 42
+
+EXCLUSION REASONS
+------------------------------------------------------------------------
+   36  Baseline:invalid_status_query_error
+    4  Case 1:invalid_status_query_error
+    1  result_count_mismatch
+    1  missing_strategy:Baseline
+
+PATIENT / PRACTITIONER CONFIGURATIONS
+------------------------------------------------------------------------
+Scale  100: 160/160 [OK]
+Scale  250: 160/160 [OK]
+Scale  500: 160/160 [OK]
+Scale  750: 160/160 [OK]
+Scale 1059: 160/160 [OK]
+
+RESEARCHER CONFIGURATIONS
+------------------------------------------------------------------------
+Scale  100: 12 matched
+Scale  250: 3 matched
+Scale  500: 3 matched
+Scale  750: 0 matched
+Scale 1059: 0 matched
+
+METHODOLOGY
+------------------------------------------------------------------------
+Only CSV files directly in overlay-query-layer are read.
+Matching key: scale, role, identity, query.
+Repetition identifiers must match across strategies.
+no_sources_selected with results=0 is valid.
+Different selected-source counts are allowed.
+Result counts must agree across all four strategies.
+Unmatched configurations are excluded from all strategies.
+Repetitions are averaged within each configuration.
+Configuration means are averaged within reporting groups.
+Timing metrics are read directly from CSV columns.
+CPU values are converted from milliseconds to seconds.
+RDF res. is a legacy httpRequests proxy.

@@ -1,0 +1,10 @@
+@prefix acl: <http://www.w3.org/ns/auth/acl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<#authorisedRead>
+    a acl:Authorization ;
+    acl:accessTo <http://localhost:3003/patient_pods/patient_0a75cd69-3594-866f-b399-ad9b3087da5e/Patient.nq> ;
+    acl:agent <http://localhost:3000/patient_0a75cd69-3594-866f-b399-ad9b3087da5e/profile/card#me>,
+        <http://localhost:3000/practitioner_e8cec4f2-9d18-39e2-8617-c6739dcafe5b/profile/card#me>,
+        <http://localhost:3000/practitioner_ecf3b40b-5a0f-3273-8782-7afd2abaa83e/profile/card#me> ;
+    acl:mode acl:Read .

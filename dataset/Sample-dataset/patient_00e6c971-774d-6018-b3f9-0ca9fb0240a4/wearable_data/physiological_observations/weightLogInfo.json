@@ -1,0 +1,39 @@
+{
+  "resource_type": "WearableData",
+  "category": "physiological_observations",
+  "measurement_type": "weightLogInfo",
+  "synthea_patient_id": "00e6c971-774d-6018-b3f9-0ca9fb0240a4",
+  "fitbit_participant_id": "4319703577",
+  "linkage_type": "synthetic",
+  "source_dataset": "FitBit Fitness Tracker Data",
+  "source_files": [
+    "physiological_observations/4.12.16-5.12.16/weightLogInfo_merged.csv"
+  ],
+  "record_count": 2,
+  "records": [
+    {
+      "Id": "4319703577",
+      "Date": "4/17/2016 11:59:59 PM",
+      "WeightKg": "72.4000015258789",
+      "WeightPounds": "159.614681185927",
+      "Fat": "25",
+      "BMI": "27.4500007629395",
+      "IsManualReport": "True",
+      "LogId": "1460937599000",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "weightLogInfo_merged.csv"
+    },
+    {
+      "Id": "4319703577",
+      "Date": "5/4/2016 11:59:59 PM",
+      "WeightKg": "72.3000030517578",
+      "WeightPounds": "159.394222287729",
+      "Fat": "",
+      "BMI": "27.3799991607666",
+      "IsManualReport": "True",
+      "LogId": "1462406399000",
+      "_source_period": "4.12.16-5.12.16",
+      "_source_file": "weightLogInfo_merged.csv"
+    }
+  ]
+}

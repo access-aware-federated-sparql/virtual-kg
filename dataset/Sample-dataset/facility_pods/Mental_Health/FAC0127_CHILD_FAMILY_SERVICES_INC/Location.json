@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "d6015d4c-49d9-3d53-bb05-22dc25fb2b24",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "d6015d4c-49d9-3d53-bb05-22dc25fb2b24"
+          }
+        ],
+        "status": "active",
+        "name": "CHILD & FAMILY SERVICES, INC.",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "5089968572"
+          }
+        ],
+        "address": {
+          "line": [
+            "1061 PLEASANT ST"
+          ],
+          "city": "NEW BEDFORD",
+          "state": "MA",
+          "postalCode": "027406728",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -70.92865004309593,
+          "latitude": 41.64280275
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "dd9914b0-9491-3330-a890-d34e95e497ea"
+          },
+          "display": "CHILD & FAMILY SERVICES, INC."
+        }
+      }
+    }
+  ]
+}

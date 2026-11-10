@@ -1,0 +1,253 @@
+{
+  "level": "server_4",
+  "name": "webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a",
+  "webid": "http://localhost:3000/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/profile/card#me",
+  "predicates": {
+    "http://example.org/synthea/vocab/birthDate": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/",
+        "pso": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/carePlanCategory": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/city": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/",
+        "pso": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/clinicalStatus": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/conditionName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/country": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/",
+        "pso": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/created": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/date": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/documentType": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/effectiveDateTime": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/encounter": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/encounterType": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/endDate": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/firstName": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/",
+        "pso": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/gender": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/",
+        "pso": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/intent": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/lastName": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/",
+        "pso": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/maritalStatus": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/",
+        "pso": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/name": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/",
+        "pso": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/numberOfInstances": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/numberOfSeries": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/observationName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/occurrenceDateTime": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/onsetDateTime": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/participant": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/patient": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/patientId": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/",
+        "pso": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/procedureName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/provider": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/recordedDate": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/reportName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/resourceId": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/serviceProvider": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/startDate": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/started": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/state": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/",
+        "pso": "http://localhost:3004/patient_pods/patient_f428c9ab-8a53-b0d6-eb3c-c8f595d119e2/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/status": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/subject": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/use": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/vaccineName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/verificationStatus": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/",
+        "pso": "http://localhost:3004/facility_pods/Hospital/FAC0456_SOUTH_SHORE_HOSPITAL_INC/espressoindex/webid_0aa79514cbb59fb7b9fd98225a4e23d9f99c799df60543ba9b8ab5d205ca1a8a.nq"
+      }
+    ]
+  }
+}

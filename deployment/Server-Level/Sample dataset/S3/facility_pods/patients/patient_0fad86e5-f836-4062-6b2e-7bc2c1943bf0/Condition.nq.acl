@@ -1,0 +1,16 @@
+@prefix acl: <http://www.w3.org/ns/auth/acl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<#authorisedRead>
+    a acl:Authorization ;
+    acl:accessTo <http://localhost:3003/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/patients/patient_0fad86e5-f836-4062-6b2e-7bc2c1943bf0/Condition.nq> ;
+    acl:agent <http://localhost:3000/patient_0fad86e5-f836-4062-6b2e-7bc2c1943bf0/profile/card#me>,
+        <http://localhost:3000/practitioner_0d44c53e-5483-38d5-98c6-3765b8769c18/profile/card#me>,
+        <http://localhost:3000/practitioner_2fff17ae-eef3-338b-984c-62d6660d0cdb/profile/card#me>,
+        <http://localhost:3000/practitioner_4b6943e4-6a76-3707-b3fb-2034e12c462f/profile/card#me>,
+        <http://localhost:3000/practitioner_dcbead26-f9db-3689-9fa3-b039db39afb5/profile/card#me>,
+        <http://localhost:3000/practitioner_ef77a853-d513-33ab-958f-3ab9e5c66506/profile/card#me>,
+        <http://localhost:3000/researcher_r1/profile/card#me>,
+        <http://localhost:3000/researcher_r2/profile/card#me>,
+        <http://localhost:3000/researcher_r3/profile/card#me> ;
+    acl:mode acl:Read .

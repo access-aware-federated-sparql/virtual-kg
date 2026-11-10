@@ -1,0 +1,306 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3fc54687-37ea-f441-3e51-493638d926ab",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "430193006",
+              "display": "Medication reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-1b73-fb2165390fd3"
+        },
+        "performedPeriod": {
+          "start": "2022-07-12T10:03:55+01:00",
+          "end": "2022-07-12T10:18:55+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3fc54687-37ea-f441-340b-ef287c0aaed3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103697008",
+              "display": "Patient referral for dental care (procedure)"
+            }
+          ],
+          "text": "Patient referral for dental care (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-6207-f15b0ca07f9c"
+        },
+        "performedPeriod": {
+          "start": "2023-04-18T10:03:55+01:00",
+          "end": "2023-04-18T10:14:24+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:3fc54687-37ea-f441-f050-b13ab758fc5e",
+            "display": "Gingivitis (disorder)"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3fc54687-37ea-f441-4187-644be07df300",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "171207006",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-e10d-330658886392"
+        },
+        "performedPeriod": {
+          "start": "2025-06-17T10:03:55+01:00",
+          "end": "2025-06-17T10:14:09+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3fc54687-37ea-f441-aeeb-7a6535ec62b7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "715252007",
+              "display": "Depression screening using Patient Health Questionnaire Nine Item score (procedure)"
+            }
+          ],
+          "text": "Depression screening using Patient Health Questionnaire Nine Item score (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-e10d-330658886392"
+        },
+        "performedPeriod": {
+          "start": "2025-06-17T10:14:09+01:00",
+          "end": "2025-06-17T10:35:15+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3fc54687-37ea-f441-4731-7888e81fa35c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "428211000124100",
+              "display": "Assessment of substance use (procedure)"
+            }
+          ],
+          "text": "Assessment of substance use (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-e10d-330658886392"
+        },
+        "performedPeriod": {
+          "start": "2025-06-17T10:35:15+01:00",
+          "end": "2025-06-17T10:47:35+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3fc54687-37ea-f441-1ec4-e4385d747025",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "868187001",
+              "display": "Assessment using Car, Relax, Alone, Forget, Friends, Trouble Screening Test (procedure)"
+            }
+          ],
+          "text": "Assessment using Car, Relax, Alone, Forget, Friends, Trouble Screening Test (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-e10d-330658886392"
+        },
+        "performedPeriod": {
+          "start": "2025-06-17T10:47:35+01:00",
+          "end": "2025-06-17T10:59:22+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3fc54687-37ea-f441-d9e2-eb6b1b04e734",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386516004",
+              "display": "Anticipatory guidance (procedure)"
+            }
+          ],
+          "text": "Anticipatory guidance (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-e10d-330658886392"
+        },
+        "performedPeriod": {
+          "start": "2025-06-17T10:59:22+01:00",
+          "end": "2025-06-17T11:11:15+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3fc54687-37ea-f441-c440-2a66182aa877",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
+          ]
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "103697008",
+              "display": "Patient referral for dental care (procedure)"
+            }
+          ],
+          "text": "Patient referral for dental care (procedure)"
+        },
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-e10d-330658886392"
+        },
+        "performedPeriod": {
+          "start": "2025-06-17T11:11:15+01:00",
+          "end": "2025-06-17T11:16:15+01:00"
+        },
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        },
+        "reasonReference": [
+          {
+            "reference": "urn:uuid:3fc54687-37ea-f441-f050-b13ab758fc5e",
+            "display": "Gingivitis (disorder)"
+          }
+        ]
+      }
+    }
+  ]
+}

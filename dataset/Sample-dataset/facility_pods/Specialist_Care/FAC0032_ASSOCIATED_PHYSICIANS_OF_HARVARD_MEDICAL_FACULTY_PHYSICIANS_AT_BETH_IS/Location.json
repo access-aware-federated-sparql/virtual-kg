@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "5e756e0c-7c6b-37c0-8bd5-eebe86c41e5e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "5e756e0c-7c6b-37c0-8bd5-eebe86c41e5e"
+          }
+        ],
+        "status": "active",
+        "name": "ASSOCIATED PHYSICIANS OF HARVARD MEDICAL FACULTY PHYSICIANS AT BETH IS",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "6176964600"
+          }
+        ],
+        "address": {
+          "line": [
+            "199 REEDSDALE RD"
+          ],
+          "city": "WALTHAM",
+          "state": "MA",
+          "postalCode": "024511433",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -71.2358004,
+          "latitude": 42.3756401
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "19a3afba-b409-3650-a0ab-f3faf6e391ef"
+          },
+          "display": "ASSOCIATED PHYSICIANS OF HARVARD MEDICAL FACULTY PHYSICIANS AT BETH IS"
+        }
+      }
+    }
+  ]
+}

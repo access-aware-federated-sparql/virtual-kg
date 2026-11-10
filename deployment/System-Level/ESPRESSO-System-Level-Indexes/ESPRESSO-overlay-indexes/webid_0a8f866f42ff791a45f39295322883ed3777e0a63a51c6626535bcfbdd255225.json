@@ -1,0 +1,279 @@
+{
+  "level": "overlay",
+  "name": "webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225",
+  "webid": "http://localhost:3000/practitioner_21ea8e2a-6278-36f3-b502-7ca06c0a97cc/profile/card#me",
+  "predicates": {
+    "http://example.org/synthea/vocab/allergyName": [
+      "S3"
+    ],
+    "http://example.org/synthea/vocab/authoredOn": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/birthDate": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/carePlanCategory": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/city": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/clinicalStatus": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/conditionName": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/context": [
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/country": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/created": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/date": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/documentType": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/effectiveDateTime": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/encounter": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/encounterType": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/endDate": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/firstName": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/gender": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/intent": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/lastName": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/maritalStatus": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/medicationName": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/name": [
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/numberOfInstances": [
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/numberOfSeries": [
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/observationName": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/occurrenceDateTime": [
+      "S1",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/onsetDateTime": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/participant": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/patient": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/patientId": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/procedureName": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/provider": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/recordedDate": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/reportName": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/requester": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/resourceId": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/result": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/resultDisplay": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/serviceProvider": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/startDate": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/started": [
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/state": [
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/status": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/subject": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/unit": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/use": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/vaccineName": [
+      "S1",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/value": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/verificationStatus": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ]
+  }
+}

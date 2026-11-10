@@ -1,0 +1,26 @@
+# Q02 — Patient — Medium
+# What clinical observations have been recorded for me
+# across my healthcare encounters?
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+
+SELECT ?observation ?observationName ?value ?unit
+       ?effectiveDateTime ?encounter ?encounterType
+WHERE {
+  GRAPH ?gObs {
+    ?observation
+      syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+      syn:observationName ?observationName ;
+      syn:value ?value ;
+      syn:unit ?unit ;
+      syn:effectiveDateTime ?effectiveDateTime ;
+      syn:encounter ?encounter .
+  }
+
+  GRAPH ?gEnc {
+    ?encounter
+      syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+      syn:encounterType ?encounterType .
+  }
+}
+ORDER BY ?effectiveDateTime

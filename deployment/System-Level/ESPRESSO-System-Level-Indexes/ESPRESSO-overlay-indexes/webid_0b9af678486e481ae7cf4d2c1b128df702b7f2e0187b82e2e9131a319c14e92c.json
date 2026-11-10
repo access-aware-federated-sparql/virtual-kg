@@ -1,0 +1,183 @@
+{
+  "level": "overlay",
+  "name": "webid_0b9af678486e481ae7cf4d2c1b128df702b7f2e0187b82e2e9131a319c14e92c",
+  "webid": "http://localhost:3000/practitioner_6458c980-c9ec-382c-8819-e158bd8bf985/profile/card#me",
+  "predicates": {
+    "http://example.org/synthea/vocab/authoredOn": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/birthDate": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/carePlanCategory": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/city": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/clinicalStatus": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/conditionName": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/context": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/country": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/created": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/date": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/documentType": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/effectiveDateTime": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/encounter": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/encounterType": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/endDate": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/firstName": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/gender": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/intent": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/lastName": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/maritalStatus": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/medicationName": [
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/name": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/numberOfInstances": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/numberOfSeries": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/observationName": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/occurrenceDateTime": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/onsetDateTime": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/participant": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/patient": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/patientId": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/procedureName": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/provider": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/recordedDate": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/reportName": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/requester": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/resourceId": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/result": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/resultDisplay": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/serviceProvider": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/startDate": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/started": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/state": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/status": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/subject": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/unit": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/use": [
+      "S2",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/vaccineName": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/value": [
+      "S2"
+    ],
+    "http://example.org/synthea/vocab/verificationStatus": [
+      "S2",
+      "S4"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "ae2005c5-13d6-3391-9a77-4ca60a3bab17",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "ae2005c5-13d6-3391-9a77-4ca60a3bab17"
+          }
+        ],
+        "status": "active",
+        "name": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "8576541000"
+          }
+        ],
+        "address": {
+          "line": [
+            "780 ALBANY ST"
+          ],
+          "city": "BOSTON",
+          "state": "MA",
+          "postalCode": "021182524",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -71.07279114401811,
+          "latitude": 42.333645250000004
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "0899da04-19b2-33b7-9d12-db40b0491c1b"
+          },
+          "display": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC"
+        }
+      }
+    }
+  ]
+}

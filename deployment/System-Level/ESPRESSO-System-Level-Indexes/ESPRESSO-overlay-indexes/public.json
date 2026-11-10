@@ -1,0 +1,49 @@
+{
+  "level": "overlay",
+  "name": "public",
+  "webid": "public",
+  "predicates": {
+    "http://example.org/synthea/vocab/city": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/country": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/gender": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/name": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/resourceId": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/specialty": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "http://example.org/synthea/vocab/state": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ]
+  }
+}

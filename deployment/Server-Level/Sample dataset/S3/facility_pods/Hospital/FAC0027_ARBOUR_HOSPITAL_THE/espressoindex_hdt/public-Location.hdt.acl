@@ -1,0 +1,8 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://www.w3.org/ns/auth/acl#> .
+
+<http://localhost:3003/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/espressoindex_hdt/public-Location.hdt.acl#read-0> a ns1:Authorization ;
+    ns1:accessTo <http://localhost:3003/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/espressoindex_hdt/public-Location.hdt> ;
+    ns1:agentClass foaf:Agent ;
+    ns1:mode ns1:Read .
+

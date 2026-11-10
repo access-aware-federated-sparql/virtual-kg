@@ -1,0 +1,7 @@
+@prefix ns1: <http://www.w3.org/ns/auth/acl#> .
+
+<http://localhost:3002/facility_pods/Community_Health/FAC0069_BOSTON_HEALTH_CARE_FOR_THE_HOMELESS_PROGRAM_INC/espressoindex_hdt/webid_8ec86867f236b7198cf8b24c8046011c24802864671d0e3611fb05fc7d39ec2a.hdt.acl#read-0> a ns1:Authorization ;
+    ns1:accessTo <http://localhost:3002/facility_pods/Community_Health/FAC0069_BOSTON_HEALTH_CARE_FOR_THE_HOMELESS_PROGRAM_INC/espressoindex_hdt/webid_8ec86867f236b7198cf8b24c8046011c24802864671d0e3611fb05fc7d39ec2a.hdt> ;
+    ns1:agent <http://localhost:3000/practitioner_88298fb2-1e1d-3f06-8dce-339ad5d06511/profile/card#me> ;
+    ns1:mode ns1:Read .
+

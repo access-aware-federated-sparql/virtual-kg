@@ -1,0 +1,21 @@
+# Q10 — Researcher — Medium
+# Emergency healthcare utilisation by organisation
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+
+SELECT ?organization
+       (COUNT(DISTINCT ?encounter) AS ?emergencyEncounterCount)
+WHERE {
+  VALUES ?patient {
+    {{COHORT_PATIENT_URIS}}
+  }
+
+  GRAPH ?gEncounter {
+    ?encounter
+      syn:subject ?patient ;
+      syn:serviceProvider ?organization ;
+      syn:encounterType "emergency" .
+  }
+}
+GROUP BY ?organization
+ORDER BY DESC(?emergencyEncounterCount)

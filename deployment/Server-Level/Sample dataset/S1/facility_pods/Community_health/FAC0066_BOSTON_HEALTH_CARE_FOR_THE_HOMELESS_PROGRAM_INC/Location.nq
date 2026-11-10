@@ -1,0 +1,5 @@
+<http://example.org/synthea/data/Location/54f6e0ea-130a-3704-91e9-4cfb7b0a64b7> <http://example.org/synthea/vocab/resourceId> "54f6e0ea-130a-3704-91e9-4cfb7b0a64b7" <http://example.org/synthea/graph/FAC0066/location> .
+<http://example.org/synthea/data/Location/54f6e0ea-130a-3704-91e9-4cfb7b0a64b7> <http://example.org/synthea/vocab/name> "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC" <http://example.org/synthea/graph/FAC0066/location> .
+<http://example.org/synthea/data/Location/54f6e0ea-130a-3704-91e9-4cfb7b0a64b7> <http://example.org/synthea/vocab/city> "BOSTON" <http://example.org/synthea/graph/FAC0066/location> .
+<http://example.org/synthea/data/Location/54f6e0ea-130a-3704-91e9-4cfb7b0a64b7> <http://example.org/synthea/vocab/state> "MA" <http://example.org/synthea/graph/FAC0066/location> .
+<http://example.org/synthea/data/Location/54f6e0ea-130a-3704-91e9-4cfb7b0a64b7> <http://example.org/synthea/vocab/country> "US" <http://example.org/synthea/graph/FAC0066/location> .

@@ -1,0 +1,20 @@
+# Q11 — Researcher — Medium
+# Heart-rate observations for approved patients
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+
+SELECT ?patient
+       (COUNT(DISTINCT ?observation) AS ?observationCount)
+WHERE {
+  VALUES ?patient {
+    {{COHORT_PATIENT_URIS}}
+  }
+
+  GRAPH ?gObservation {
+    ?observation
+      syn:subject ?patient ;
+      syn:observationName "Heart rate" .
+  }
+}
+GROUP BY ?patient
+ORDER BY DESC(?observationCount)

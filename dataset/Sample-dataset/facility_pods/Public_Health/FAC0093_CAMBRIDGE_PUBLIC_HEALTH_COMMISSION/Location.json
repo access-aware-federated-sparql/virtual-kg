@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "580dfad8-45bd-3de0-8636-3140d44a4ba5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "580dfad8-45bd-3de0-8636-3140d44a4ba5"
+          }
+        ],
+        "status": "active",
+        "name": "CAMBRIDGE PUBLIC HEALTH COMMISSION",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "6176651000"
+          }
+        ],
+        "address": {
+          "line": [
+            "1493 CAMBRIDGE ST"
+          ],
+          "city": "SOMERVILLE",
+          "state": "MA",
+          "postalCode": "021452935",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -71.0994968,
+          "latitude": 42.3875968
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "bac9dc0c-cb0f-3fa6-aa12-819dd0fb922a"
+          },
+          "display": "CAMBRIDGE PUBLIC HEALTH COMMISSION"
+        }
+      }
+    }
+  ]
+}

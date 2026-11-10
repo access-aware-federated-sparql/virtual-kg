@@ -1,0 +1,81 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "1c3fb863-787e-0a0c-b0cd-de65161748c7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+          ]
+        },
+        "practitioner": {
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999979690"
+          },
+          "display": "Dr. Morton637 Franecki195"
+        },
+        "organization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "0899da04-19b2-33b7-9d12-db40b0491c1b"
+          },
+          "display": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "location": [
+          {
+            "identifier": {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "ae2005c5-13d6-3391-9a77-4ca60a3bab17"
+            },
+            "display": "BOSTON HEALTH CARE FOR THE HOMELESS PROGRAM INC"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "8576541000"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct",
+                "valueBoolean": true
+              }
+            ],
+            "system": "email",
+            "value": "Morton637.Franecki195@example.com",
+            "use": "work"
+          }
+        ]
+      }
+    }
+  ]
+}

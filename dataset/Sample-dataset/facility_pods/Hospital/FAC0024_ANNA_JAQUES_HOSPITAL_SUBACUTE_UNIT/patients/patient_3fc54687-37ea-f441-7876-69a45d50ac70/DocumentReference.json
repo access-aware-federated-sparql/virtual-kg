@@ -1,0 +1,411 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "3746c73c-65a6-f1fb-8802-b340113e7e7c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:8693db6e-89a0-2c05-0709-4e6019ca4383"
+          }
+        ],
+        "status": "superseded",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34117-2",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "51847-2",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "date": "2016-09-08T10:03:55.725+01:00",
+        "author": [
+          {
+            "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994095",
+            "display": "Dr. Tracie996 Lesch175"
+          }
+        ],
+        "custodian": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ecd3b321-0a8a-3ce6-81f0-982dd77fce43",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "data": "CjIwMTYtMDktMDgKCiMgQ2hpZWYgQ29tcGxhaW50Ci0gRWFyIFByZXNzdXJlCi0gTmFzYWwgRGlzY2hhcmdlCgoKIyBIaXN0b3J5IG9mIFByZXNlbnQgSWxsbmVzcwpNaWNoYWVsYTMxOCBpcyBhIDQgeWVhci1vbGQgbm9uaGlzcGFuaWMgYmxhY2sgZmVtYWxlLiBQYXRpZW50IGhhcyBhIGhpc3Rvcnkgb2YgbWVkaWNhdGlvbiByZXZpZXcgZHVlIChzaXR1YXRpb24pLgoKIyBTb2NpYWwgSGlzdG9yeQogUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLgoKClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuCgpQYXRpZW50IGN1cnJlbnRseSBoYXMgTWVkaWNhcmUuCgojIEFsbGVyZ2llcwpObyBLbm93biBBbGxlcmdpZXMuCgojIE1lZGljYXRpb25zCk5vIEFjdGl2ZSBNZWRpY2F0aW9ucy4KCiMgQXNzZXNzbWVudCBhbmQgUGxhbgpQYXRpZW50IGlzIHByZXNlbnRpbmcgd2l0aCBvdGl0aXMgbWVkaWEgKGRpc29yZGVyKS4gCgoKIyMgUGxhbgoKVGhlIHBhdGllbnQgd2FzIHByZXNjcmliZWQgdGhlIGZvbGxvd2luZyBtZWRpY2F0aW9uczoKLSBhbW94aWNpbGxpbiA1MDAgbWcgb3JhbCB0YWJsZXQKLSBhY2V0YW1pbm9waGVuIDE2MCBtZyBjaGV3YWJsZSB0YWJsZXQK"
+            },
+            "format": {
+              "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+              "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+              "display": "mimeType Sufficient"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "urn:uuid:3fc54687-37ea-f441-df55-d8300d52e900"
+            }
+          ],
+          "period": {
+            "start": "2016-09-08T10:03:55+01:00",
+            "end": "2016-09-08T10:18:55+01:00"
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "57714c8b-7ccf-4a57-6330-0cc63648126c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:5cbb0e6d-ee7f-20dc-6412-3d86f12098b4"
+          }
+        ],
+        "status": "superseded",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34117-2",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "51847-2",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "date": "2022-07-12T10:03:55.725+01:00",
+        "author": [
+          {
+            "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994095",
+            "display": "Dr. Tracie996 Lesch175"
+          }
+        ],
+        "custodian": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ecd3b321-0a8a-3ce6-81f0-982dd77fce43",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "data": "CjIwMjItMDctMTIKCiMgQ2hpZWYgQ29tcGxhaW50Ci0gRWFyIFByZXNzdXJlCi0gTmFzYWwgRGlzY2hhcmdlCgoKIyBIaXN0b3J5IG9mIFByZXNlbnQgSWxsbmVzcwpNaWNoYWVsYTMxOCBpcyBhIDEwIHllYXItb2xkIG5vbmhpc3BhbmljIGJsYWNrIGZlbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIGFjdXRlIGJyb25jaGl0aXMgKGRpc29yZGVyKSwgbWVkaWNhdGlvbiByZXZpZXcgZHVlIChzaXR1YXRpb24pLCBpbmZlY3Rpb24gb2YgdG9vdGggKGRpc29yZGVyKSwgdmlyYWwgc2ludXNpdGlzIChkaXNvcmRlciksIG90aXRpcyBtZWRpYSAoZGlzb3JkZXIpLCBnaW5naXZpdGlzIChkaXNvcmRlcikuCgojIFNvY2lhbCBIaXN0b3J5CiBQYXRpZW50IGhhcyBuZXZlciBzbW9rZWQuCgoKUGF0aWVudCBjb21lcyBmcm9tIGEgbWlkZGxlIHNvY2lvZWNvbm9taWMgYmFja2dyb3VuZC4KClBhdGllbnQgY3VycmVudGx5IGhhcyBNZWRpY2FyZS4KCiMgQWxsZXJnaWVzCk5vIEtub3duIEFsbGVyZ2llcy4KCiMgTWVkaWNhdGlvbnMKYWNldGFtaW5vcGhlbiAzMjUgbWcgb3JhbCB0YWJsZXQ7IGh5ZHJvY29ydGlzb25lIDEwIG1nL21sIHRvcGljYWwgY3JlYW07IGFtb3hpY2lsbGluIDUwMCBtZyBvcmFsIHRhYmxldDsgYWNldGFtaW5vcGhlbiAxNjAgbWcgY2hld2FibGUgdGFibGV0OyBzb2RpdW0gZmx1b3JpZGUgMC4wMjcyIG1nL21nIG9yYWwgZ2VsCgojIEFzc2Vzc21lbnQgYW5kIFBsYW4KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggbWVkaWNhdGlvbiByZXZpZXcgZHVlIChzaXR1YXRpb24pLiAKCgojIyBQbGFuCgpUaGUgZm9sbG93aW5nIHByb2NlZHVyZXMgd2VyZSBjb25kdWN0ZWQ6Ci0gbWVkaWNhdGlvbiByZWNvbmNpbGlhdGlvbiAocHJvY2VkdXJlKQo="
+            },
+            "format": {
+              "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+              "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+              "display": "mimeType Sufficient"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "urn:uuid:3fc54687-37ea-f441-1b73-fb2165390fd3"
+            }
+          ],
+          "period": {
+            "start": "2022-07-12T10:03:55+01:00",
+            "end": "2022-07-12T10:18:55+01:00"
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "eeeb58c3-1089-0852-29a4-d18b2594c713",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:9d05a553-bf46-3112-b608-46cb974d8841"
+          }
+        ],
+        "status": "superseded",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34117-2",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "51847-2",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "date": "2023-04-18T10:03:55.725+01:00",
+        "author": [
+          {
+            "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994095",
+            "display": "Dr. Tracie996 Lesch175"
+          }
+        ],
+        "custodian": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ecd3b321-0a8a-3ce6-81f0-982dd77fce43",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "data": "CjIwMjMtMDQtMTgKCiMgQ2hpZWYgQ29tcGxhaW50Ci0gRWFyIFByZXNzdXJlCi0gTmFzYWwgRGlzY2hhcmdlCgoKIyBIaXN0b3J5IG9mIFByZXNlbnQgSWxsbmVzcwpNaWNoYWVsYTMxOCBpcyBhIDExIHllYXItb2xkIG5vbmhpc3BhbmljIGJsYWNrIGZlbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIHN0cmVwdG9jb2NjYWwgc29yZSB0aHJvYXQgKGRpc29yZGVyKSwgYWN1dGUgYnJvbmNoaXRpcyAoZGlzb3JkZXIpLCBtZWRpY2F0aW9uIHJldmlldyBkdWUgKHNpdHVhdGlvbiksIGluZmVjdGlvbiBvZiB0b290aCAoZGlzb3JkZXIpLCBhY3V0ZSB2aXJhbCBwaGFyeW5naXRpcyAoZGlzb3JkZXIpLCB2aXJhbCBzaW51c2l0aXMgKGRpc29yZGVyKSwgb3RpdGlzIG1lZGlhIChkaXNvcmRlciksIGdpbmdpdml0aXMgKGRpc29yZGVyKS4KCiMgU29jaWFsIEhpc3RvcnkKIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4KCgpQYXRpZW50IGNvbWVzIGZyb20gYSBtaWRkbGUgc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLgoKUGF0aWVudCBjdXJyZW50bHkgaGFzIE1lZGljYXJlLgoKIyBBbGxlcmdpZXMKTm8gS25vd24gQWxsZXJnaWVzLgoKIyBNZWRpY2F0aW9ucwphY2V0YW1pbm9waGVuIDMyNSBtZyBvcmFsIHRhYmxldDsgcGVuaWNpbGxpbiB2IHBvdGFzc2l1bSAyNTAgbWcgb3JhbCB0YWJsZXQ7IGh5ZHJvY29ydGlzb25lIDEwIG1nL21sIHRvcGljYWwgY3JlYW07IGFtb3hpY2lsbGluIDUwMCBtZyBvcmFsIHRhYmxldDsgYWNldGFtaW5vcGhlbiAxNjAgbWcgY2hld2FibGUgdGFibGV0OyBzb2RpdW0gZmx1b3JpZGUgMC4wMjcyIG1nL21nIG9yYWwgZ2VsCgojIEFzc2Vzc21lbnQgYW5kIFBsYW4KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggbWVkaWNhdGlvbiByZXZpZXcgZHVlIChzaXR1YXRpb24pLCBnaW5naXZpdGlzIChkaXNvcmRlcikuIAoKCiMjIFBsYW4KUGF0aWVudCB3YXMgZ2l2ZW4gdGhlIGZvbGxvd2luZyBpbW11bml6YXRpb25zOiBocHYsIHF1YWRyaXZhbGVudC4gClRoZSBmb2xsb3dpbmcgcHJvY2VkdXJlcyB3ZXJlIGNvbmR1Y3RlZDoKLSBwYXRpZW50IHJlZmVycmFsIGZvciBkZW50YWwgY2FyZSAocHJvY2VkdXJlKQo="
+            },
+            "format": {
+              "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+              "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+              "display": "mimeType Sufficient"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "urn:uuid:3fc54687-37ea-f441-6207-f15b0ca07f9c"
+            }
+          ],
+          "period": {
+            "start": "2023-04-18T10:03:55+01:00",
+            "end": "2023-04-18T10:18:55+01:00"
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "fa981b63-2116-cee4-8077-fb807dd332ef",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:10b25d8c-2e69-6c46-145d-f518afba2832"
+          }
+        ],
+        "status": "superseded",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34117-2",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "51847-2",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "date": "2024-01-16T09:03:55.725+00:00",
+        "author": [
+          {
+            "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994095",
+            "display": "Dr. Tracie996 Lesch175"
+          }
+        ],
+        "custodian": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ecd3b321-0a8a-3ce6-81f0-982dd77fce43",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "data": "CjIwMjQtMDEtMTYKCiMgQ2hpZWYgQ29tcGxhaW50Ci0gRWFyIFByZXNzdXJlCi0gTmFzYWwgRGlzY2hhcmdlCgoKIyBIaXN0b3J5IG9mIFByZXNlbnQgSWxsbmVzcwpNaWNoYWVsYTMxOCBpcyBhIDEyIHllYXItb2xkIG5vbmhpc3BhbmljIGJsYWNrIGZlbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIHN0cmVwdG9jb2NjYWwgc29yZSB0aHJvYXQgKGRpc29yZGVyKSwgYWN1dGUgYnJvbmNoaXRpcyAoZGlzb3JkZXIpLCBtZWRpY2F0aW9uIHJldmlldyBkdWUgKHNpdHVhdGlvbiksIGluZmVjdGlvbiBvZiB0b290aCAoZGlzb3JkZXIpLCBhY3V0ZSB2aXJhbCBwaGFyeW5naXRpcyAoZGlzb3JkZXIpLCB2aXJhbCBzaW51c2l0aXMgKGRpc29yZGVyKSwgb3RpdGlzIG1lZGlhIChkaXNvcmRlciksIGdpbmdpdml0aXMgKGRpc29yZGVyKS4KCiMgU29jaWFsIEhpc3RvcnkKIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4KCgpQYXRpZW50IGNvbWVzIGZyb20gYSBtaWRkbGUgc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLgoKUGF0aWVudCBjdXJyZW50bHkgaGFzIE1lZGljYXJlLgoKIyBBbGxlcmdpZXMKTm8gS25vd24gQWxsZXJnaWVzLgoKIyBNZWRpY2F0aW9ucwphY2V0YW1pbm9waGVuIDMyNSBtZyBvcmFsIHRhYmxldDsgcGVuaWNpbGxpbiB2IHBvdGFzc2l1bSAyNTAgbWcgb3JhbCB0YWJsZXQ7IGh5ZHJvY29ydGlzb25lIDEwIG1nL21sIHRvcGljYWwgY3JlYW07IGFtb3hpY2lsbGluIDUwMCBtZyBvcmFsIHRhYmxldDsgYWNldGFtaW5vcGhlbiAxNjAgbWcgY2hld2FibGUgdGFibGV0OyBzb2RpdW0gZmx1b3JpZGUgMC4wMjcyIG1nL21nIG9yYWwgZ2VsCgojIEFzc2Vzc21lbnQgYW5kIFBsYW4KCgoKIyMgUGxhbgpQYXRpZW50IHdhcyBnaXZlbiB0aGUgZm9sbG93aW5nIGltbXVuaXphdGlvbnM6IGNvdmlkLTE5LCBtcm5hLCBsbnAtcywgcGYsIDEwMCBtY2cvMC41bWwgZG9zZSBvciA1MCBtY2cvMC4yNW1sIGRvc2UuIAo="
+            },
+            "format": {
+              "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+              "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+              "display": "mimeType Sufficient"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "urn:uuid:3fc54687-37ea-f441-8431-cead225b5686"
+            }
+          ],
+          "period": {
+            "start": "2024-01-16T09:03:55+00:00",
+            "end": "2024-01-16T09:18:55+00:00"
+          }
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "5ed20865-8c15-9875-1b36-12eb6bf5b5d2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:uuid:d6cac75e-3891-0c92-2786-b361e4289914"
+          }
+        ],
+        "status": "superseded",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34117-2",
+              "display": "History and physical note"
+            },
+            {
+              "system": "http://loinc.org",
+              "code": "51847-2",
+              "display": "Evaluation + Plan note"
+            }
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category",
+                "code": "clinical-note",
+                "display": "Clinical Note"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "date": "2025-06-17T10:03:55.725+01:00",
+        "author": [
+          {
+            "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994095",
+            "display": "Dr. Tracie996 Lesch175"
+          }
+        ],
+        "custodian": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ecd3b321-0a8a-3ce6-81f0-982dd77fce43",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        },
+        "content": [
+          {
+            "attachment": {
+              "contentType": "text/plain; charset=utf-8",
+              "data": "CjIwMjUtMDYtMTcKCiMgQ2hpZWYgQ29tcGxhaW50Ci0gRWFyIFByZXNzdXJlCi0gTmFzYWwgRGlzY2hhcmdlCgoKIyBIaXN0b3J5IG9mIFByZXNlbnQgSWxsbmVzcwpNaWNoYWVsYTMxOCBpcyBhIDEzIHllYXItb2xkIG5vbmhpc3BhbmljIGJsYWNrIGZlbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIHN0cmVwdG9jb2NjYWwgc29yZSB0aHJvYXQgKGRpc29yZGVyKSwgYWN1dGUgYnJvbmNoaXRpcyAoZGlzb3JkZXIpLCBtZWRpY2F0aW9uIHJldmlldyBkdWUgKHNpdHVhdGlvbiksIGluZmVjdGlvbiBvZiB0b290aCAoZGlzb3JkZXIpLCBhY3V0ZSB2aXJhbCBwaGFyeW5naXRpcyAoZGlzb3JkZXIpLCB2aXJhbCBzaW51c2l0aXMgKGRpc29yZGVyKSwgb3RpdGlzIG1lZGlhIChkaXNvcmRlciksIGdpbmdpdml0aXMgKGRpc29yZGVyKS4KCiMgU29jaWFsIEhpc3RvcnkKIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4KCgpQYXRpZW50IGNvbWVzIGZyb20gYSBtaWRkbGUgc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLgoKUGF0aWVudCBjdXJyZW50bHkgaGFzIE1lZGljYXJlLgoKIyBBbGxlcmdpZXMKTm8gS25vd24gQWxsZXJnaWVzLgoKIyBNZWRpY2F0aW9ucwphY2V0YW1pbm9waGVuIDMyNSBtZyBvcmFsIHRhYmxldDsgcGVuaWNpbGxpbiB2IHBvdGFzc2l1bSAyNTAgbWcgb3JhbCB0YWJsZXQ7IGh5ZHJvY29ydGlzb25lIDEwIG1nL21sIHRvcGljYWwgY3JlYW07IGFtb3hpY2lsbGluIDUwMCBtZyBvcmFsIHRhYmxldDsgYWNldGFtaW5vcGhlbiAxNjAgbWcgY2hld2FibGUgdGFibGV0OyBzb2RpdW0gZmx1b3JpZGUgMC4wMjcyIG1nL21nIG9yYWwgZ2VsCgojIEFzc2Vzc21lbnQgYW5kIFBsYW4KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggbWVkaWNhdGlvbiByZXZpZXcgZHVlIChzaXR1YXRpb24pLCBnaW5naXZpdGlzIChkaXNvcmRlcikuIAoKCiMjIFBsYW4KClRoZSBmb2xsb3dpbmcgcHJvY2VkdXJlcyB3ZXJlIGNvbmR1Y3RlZDoKLSBkZXByZXNzaW9uIHNjcmVlbmluZyAocHJvY2VkdXJlKQotIGRlcHJlc3Npb24gc2NyZWVuaW5nIHVzaW5nIHBhdGllbnQgaGVhbHRoIHF1ZXN0aW9ubmFpcmUgbmluZSBpdGVtIHNjb3JlIChwcm9jZWR1cmUpCi0gYXNzZXNzbWVudCBvZiBzdWJzdGFuY2UgdXNlIChwcm9jZWR1cmUpCi0gYXNzZXNzbWVudCB1c2luZyBjYXIsIHJlbGF4LCBhbG9uZSwgZm9yZ2V0LCBmcmllbmRzLCB0cm91YmxlIHNjcmVlbmluZyB0ZXN0IChwcm9jZWR1cmUpCi0gYW50aWNpcGF0b3J5IGd1aWRhbmNlIChwcm9jZWR1cmUpCi0gcGF0aWVudCByZWZlcnJhbCBmb3IgZGVudGFsIGNhcmUgKHByb2NlZHVyZSkKVGhlIGZvbGxvd2luZyBsYWIgcmVwb3J0cyB3ZXJlIGNvbXBsZXRlZDoKLSBwYXRpZW50IGhlYWx0aCBxdWVzdGlvbm5haXJlLTk6IG1vZGlmaWVkIGZvciB0ZWVucyBbcmVwb3J0ZWQucGhxLnRlZW5dCg=="
+            },
+            "format": {
+              "system": "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
+              "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+              "display": "mimeType Sufficient"
+            }
+          }
+        ],
+        "context": {
+          "encounter": [
+            {
+              "reference": "urn:uuid:3fc54687-37ea-f441-e10d-330658886392"
+            }
+          ],
+          "period": {
+            "start": "2025-06-17T10:03:55+01:00",
+            "end": "2025-06-17T10:18:55+01:00"
+          }
+        }
+      }
+    }
+  ]
+}

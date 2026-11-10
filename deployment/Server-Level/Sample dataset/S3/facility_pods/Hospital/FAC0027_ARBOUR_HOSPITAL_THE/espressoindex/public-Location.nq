@@ -1,0 +1,5 @@
+<http://example.org/synthea/data/Location/aeef7e2a-7ec8-3996-b407-b3cbc8ab9949> <http://example.org/synthea/vocab/state> "MA" <urn:espresso:source:server3/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/Location.nq> .
+<http://example.org/synthea/data/Location/aeef7e2a-7ec8-3996-b407-b3cbc8ab9949> <http://example.org/synthea/vocab/city> "QUINCY" <urn:espresso:source:server3/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/Location.nq> .
+<http://example.org/synthea/data/Location/aeef7e2a-7ec8-3996-b407-b3cbc8ab9949> <http://example.org/synthea/vocab/resourceId> "aeef7e2a-7ec8-3996-b407-b3cbc8ab9949" <urn:espresso:source:server3/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/Location.nq> .
+<http://example.org/synthea/data/Location/aeef7e2a-7ec8-3996-b407-b3cbc8ab9949> <http://example.org/synthea/vocab/country> "US" <urn:espresso:source:server3/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/Location.nq> .
+<http://example.org/synthea/data/Location/aeef7e2a-7ec8-3996-b407-b3cbc8ab9949> <http://example.org/synthea/vocab/name> "ARBOUR HOSPITAL, THE" <urn:espresso:source:server3/facility_pods/Hospital/FAC0027_ARBOUR_HOSPITAL_THE/Location.nq> .

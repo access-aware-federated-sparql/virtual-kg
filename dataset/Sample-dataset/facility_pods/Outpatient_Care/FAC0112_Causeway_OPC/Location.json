@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "9cb921a3-508a-38a1-9a85-ee15fd2ff98a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "9cb921a3-508a-38a1-9a85-ee15fd2ff98a"
+          }
+        ],
+        "status": "active",
+        "name": "Causeway OPC",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "800-865-3384"
+          }
+        ],
+        "address": {
+          "line": [
+            "251 Causeway St."
+          ],
+          "city": "Boston",
+          "state": "MA",
+          "postalCode": "02114",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -71.05931,
+          "latitude": 42.3665
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "d5920b72-ac1a-3ec4-81ca-e3b75cb7aadd"
+          },
+          "display": "Causeway OPC"
+        }
+      }
+    }
+  ]
+}

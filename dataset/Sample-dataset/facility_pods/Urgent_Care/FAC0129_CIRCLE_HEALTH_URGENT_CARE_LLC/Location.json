@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "e9cf4f89-9392-3655-828f-418d597de57c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "e9cf4f89-9392-3655-828f-418d597de57c"
+          }
+        ],
+        "status": "active",
+        "name": "CIRCLE HEALTH URGENT CARE LLC",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "9783230302"
+          }
+        ],
+        "address": {
+          "line": [
+            "198 LITTLETON RD"
+          ],
+          "city": "WESTFORD",
+          "state": "MA",
+          "postalCode": "018863429",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -71.42620615382347,
+          "latitude": 42.564282
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2"
+          },
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Location",
+        "id": "15453d1c-9eb0-3475-9ed1-52e28ba5a04e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "15453d1c-9eb0-3475-9ed1-52e28ba5a04e"
+          }
+        ],
+        "status": "active",
+        "name": "ALTERNATIVE HOME HEALTH CARE, LLC",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "9786577444"
+          }
+        ],
+        "address": {
+          "line": [
+            "160 MERRIMACK STREET, SUITE 1"
+          ],
+          "city": "METHUEN",
+          "state": "MA",
+          "postalCode": "018446117",
+          "country": "US"
+        },
+        "position": {
+          "longitude": -71.13599310716302,
+          "latitude": 42.7334079
+        },
+        "managingOrganization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "7dddc0c2-9f1d-3e4e-b2f2-fc7e6abbed31"
+          },
+          "display": "ALTERNATIVE HOME HEALTH CARE, LLC"
+        }
+      }
+    }
+  ]
+}

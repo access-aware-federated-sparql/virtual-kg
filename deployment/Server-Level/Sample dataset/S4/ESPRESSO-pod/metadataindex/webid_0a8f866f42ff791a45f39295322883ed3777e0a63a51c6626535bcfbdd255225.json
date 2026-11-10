@@ -1,0 +1,1069 @@
+{
+  "level": "server_4",
+  "name": "webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225",
+  "webid": "http://localhost:3000/practitioner_21ea8e2a-6278-36f3-b502-7ca06c0a97cc/profile/card#me",
+  "predicates": {
+    "http://example.org/synthea/vocab/authoredOn": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/birthDate": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/",
+        "pso": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/",
+        "pso": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/",
+        "pso": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/carePlanCategory": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/city": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/",
+        "pso": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/",
+        "pso": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/",
+        "pso": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/clinicalStatus": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/conditionName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/context": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/country": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/",
+        "pso": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/",
+        "pso": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/",
+        "pso": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/created": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/date": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/documentType": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/effectiveDateTime": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/encounter": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/encounterType": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/endDate": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/firstName": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/",
+        "pso": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/",
+        "pso": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/",
+        "pso": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/gender": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/",
+        "pso": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/",
+        "pso": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/",
+        "pso": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/intent": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/lastName": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/",
+        "pso": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/",
+        "pso": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/",
+        "pso": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/maritalStatus": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/",
+        "pso": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/",
+        "pso": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/",
+        "pso": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/medicationName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/name": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/",
+        "pso": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/",
+        "pso": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/",
+        "pso": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/numberOfInstances": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/numberOfSeries": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/observationName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/occurrenceDateTime": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/onsetDateTime": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/participant": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/patient": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/patientId": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/",
+        "pso": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/",
+        "pso": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/",
+        "pso": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/procedureName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/provider": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/recordedDate": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/reportName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/requester": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/resourceId": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/result": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/resultDisplay": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/serviceProvider": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/startDate": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/started": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/state": [
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/",
+        "pso": "http://localhost:3004/patient_pods/patient_25a88643-8d73-3bb4-d82b-419450f36f34/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/",
+        "pso": "http://localhost:3004/patient_pods/patient_95c31933-6536-f927-bf82-ebc13a91c03e/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/",
+        "pso": "http://localhost:3004/patient_pods/patient_b09d0772-5e52-5a0a-89af-35061bfde600/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/status": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/subject": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/unit": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/use": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/vaccineName": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/value": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ],
+    "http://example.org/synthea/vocab/verificationStatus": [
+      {
+        "pod": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/",
+        "pso": "http://localhost:3004/facility_pods/Community_Health/FAC0232_GREATER_LAWRENCE_FAMILY_HEALTH_CENTER_INC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/",
+        "pso": "http://localhost:3004/facility_pods/Long_Term_Care/FAC0365_NEVINS_NURSING_REHABILITATION_CENTER/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/",
+        "pso": "http://localhost:3004/facility_pods/Outpatient_Care/FAC0248_Haverhill_Community_Based_Outpatient_Clinic_CBOC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/",
+        "pso": "http://localhost:3004/facility_pods/Primary_Care/FAC0177_DRACUT_FAMILY_HEALTHCARE/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/",
+        "pso": "http://localhost:3004/facility_pods/Specialist_Care/FAC0265_HOLY_FAMILY_INPATIENT_SPECIALISTS_PLLC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      },
+      {
+        "pod": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/",
+        "pso": "http://localhost:3004/facility_pods/Urgent_Care/FAC0521_URGENT_HELP_CHELMSFORD_PC/espressoindex/webid_0a8f866f42ff791a45f39295322883ed3777e0a63a51c6626535bcfbdd255225.nq"
+      }
+    ]
+  }
+}

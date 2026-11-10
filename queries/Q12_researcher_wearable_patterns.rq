@@ -1,0 +1,37 @@
+# Q12 — Researcher — Complex Analytical
+# Hourly physical activity across multiple measurement types
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?patient ?activityHour ?measurementType
+       (SUM(xsd:decimal(?value)) AS ?totalValue)
+WHERE {
+  VALUES ?patient {
+    {{COHORT_PATIENT_URIS}}
+  }
+
+  {
+    GRAPH ?gSteps {
+      ?record
+        syn:subject ?patient ;
+        syn:sourceFile "physical_activity/hourlySteps.json" ;
+        syn:ActivityHour ?activityHour ;
+        syn:StepTotal ?value .
+    }
+    BIND("steps" AS ?measurementType)
+  }
+  UNION
+  {
+    GRAPH ?gCalories {
+      ?record
+        syn:subject ?patient ;
+        syn:sourceFile "physical_activity/hourlyCalories.json" ;
+        syn:ActivityHour ?activityHour ;
+        syn:Calories ?value .
+    }
+    BIND("calories" AS ?measurementType)
+  }
+}
+GROUP BY ?patient ?activityHour ?measurementType
+ORDER BY ?patient ?activityHour ?measurementType

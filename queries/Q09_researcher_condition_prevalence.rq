@@ -1,0 +1,17 @@
+# Q09 — Researcher — Simple
+# Prevalence of hypertension in the approved study population
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+
+SELECT (COUNT(DISTINCT ?patient) AS ?patientCount)
+WHERE {
+  VALUES ?patient {
+    {{COHORT_PATIENT_URIS}}
+  }
+
+  GRAPH ?g {
+    ?condition
+      syn:subject ?patient ;
+      syn:conditionName "Hypertension" .
+  }
+}

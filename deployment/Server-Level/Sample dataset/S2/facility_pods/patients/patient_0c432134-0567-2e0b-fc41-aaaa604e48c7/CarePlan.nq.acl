@@ -1,0 +1,13 @@
+@prefix acl: <http://www.w3.org/ns/auth/acl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<#authorisedRead>
+    a acl:Authorization ;
+    acl:accessTo <http://localhost:3002/facility_pods/Community_Health/FAC0069_BOSTON_HEALTH_CARE_FOR_THE_HOMELESS_PROGRAM_INC/patients/patient_0c432134-0567-2e0b-fc41-aaaa604e48c7/CarePlan.nq> ;
+    acl:agent <http://localhost:3000/patient_0c432134-0567-2e0b-fc41-aaaa604e48c7/profile/card#me>,
+        <http://localhost:3000/practitioner_190ecc42-be89-39c9-999a-540914cb37df/profile/card#me>,
+        <http://localhost:3000/practitioner_88298fb2-1e1d-3f06-8dce-339ad5d06511/profile/card#me>,
+        <http://localhost:3000/practitioner_b3eb884c-0894-35ec-84a4-51ac8d28b637/profile/card#me>,
+        <http://localhost:3000/practitioner_ffc9062d-cc00-39f7-9862-b67ee6dcb076/profile/card#me>,
+        <http://localhost:3000/researcher_r3/profile/card#me> ;
+    acl:mode acl:Read .

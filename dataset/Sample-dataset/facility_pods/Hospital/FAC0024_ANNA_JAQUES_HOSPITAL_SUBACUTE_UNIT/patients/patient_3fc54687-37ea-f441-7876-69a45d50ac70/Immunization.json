@@ -1,0 +1,74 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "3fc54687-37ea-f441-99f3-b8d7322da268",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization"
+          ]
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "62",
+              "display": "HPV, quadrivalent"
+            }
+          ],
+          "text": "HPV, quadrivalent"
+        },
+        "patient": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-6207-f15b0ca07f9c"
+        },
+        "occurrenceDateTime": "2023-04-18T10:03:55+01:00",
+        "primarySource": true,
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "3fc54687-37ea-f441-fc39-b1e866b94889",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization"
+          ]
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "207",
+              "display": "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose"
+            }
+          ],
+          "text": "COVID-19, mRNA, LNP-S, PF, 100 mcg/0.5mL dose or 50 mcg/0.25mL dose"
+        },
+        "patient": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70"
+        },
+        "encounter": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-8431-cead225b5686"
+        },
+        "occurrenceDateTime": "2024-01-16T09:03:55+00:00",
+        "primarySource": true,
+        "location": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    }
+  ]
+}

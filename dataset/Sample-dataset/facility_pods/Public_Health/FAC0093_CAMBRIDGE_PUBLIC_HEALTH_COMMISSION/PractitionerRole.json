@@ -1,0 +1,81 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "41eedf0c-ca96-89cb-6b84-a23cba59f4f3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"
+          ]
+        },
+        "practitioner": {
+          "identifier": {
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "9999993196"
+          },
+          "display": "Dr. Nicholas495 Greenfelder433"
+        },
+        "organization": {
+          "identifier": {
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "bac9dc0c-cb0f-3fa6-aa12-819dd0fb922a"
+          },
+          "display": "CAMBRIDGE PUBLIC HEALTH COMMISSION"
+        },
+        "code": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "specialty": [
+          {
+            "coding": [
+              {
+                "system": "http://nucc.org/provider-taxonomy",
+                "code": "208D00000X",
+                "display": "General Practice Physician"
+              }
+            ],
+            "text": "General Practice Physician"
+          }
+        ],
+        "location": [
+          {
+            "identifier": {
+              "system": "https://github.com/synthetichealth/synthea",
+              "value": "580dfad8-45bd-3de0-8636-3140d44a4ba5"
+            },
+            "display": "CAMBRIDGE PUBLIC HEALTH COMMISSION"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "6176651000"
+          },
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-direct",
+                "valueBoolean": true
+              }
+            ],
+            "system": "email",
+            "value": "Nicholas495.Greenfelder433@example.com",
+            "use": "work"
+          }
+        ]
+      }
+    }
+  ]
+}

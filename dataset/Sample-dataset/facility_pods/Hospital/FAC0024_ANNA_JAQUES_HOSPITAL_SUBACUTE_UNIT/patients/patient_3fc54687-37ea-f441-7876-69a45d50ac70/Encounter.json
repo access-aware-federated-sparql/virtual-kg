@@ -1,0 +1,412 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "3fc54687-37ea-f441-df55-d8300d52e900",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "3fc54687-37ea-f441-df55-d8300d52e900"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185345009",
+                "display": "Encounter for symptom (procedure)"
+              }
+            ],
+            "text": "Encounter for symptom (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70",
+          "display": "Michaela318 Cheryll577 Upton904"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "primary performer"
+              }
+            ],
+            "period": {
+              "start": "2016-09-08T10:03:55+01:00",
+              "end": "2016-09-08T10:18:55+01:00"
+            },
+            "individual": {
+              "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994095",
+              "display": "Dr. Tracie996 Lesch175"
+            }
+          }
+        ],
+        "period": {
+          "start": "2016-09-08T10:03:55+01:00",
+          "end": "2016-09-08T10:18:55+01:00"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "65363002",
+                "display": "Otitis media (disorder)"
+              }
+            ]
+          }
+        ],
+        "location": [
+          {
+            "location": {
+              "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+              "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ecd3b321-0a8a-3ce6-81f0-982dd77fce43",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "3fc54687-37ea-f441-1b73-fb2165390fd3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "3fc54687-37ea-f441-1b73-fb2165390fd3"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185349003",
+                "display": "Encounter for check up (procedure)"
+              }
+            ],
+            "text": "Encounter for check up (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70",
+          "display": "Michaela318 Cheryll577 Upton904"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "primary performer"
+              }
+            ],
+            "period": {
+              "start": "2022-07-12T10:03:55+01:00",
+              "end": "2022-07-12T10:18:55+01:00"
+            },
+            "individual": {
+              "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994095",
+              "display": "Dr. Tracie996 Lesch175"
+            }
+          }
+        ],
+        "period": {
+          "start": "2022-07-12T10:03:55+01:00",
+          "end": "2022-07-12T10:18:55+01:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+              "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ecd3b321-0a8a-3ce6-81f0-982dd77fce43",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "3fc54687-37ea-f441-6207-f15b0ca07f9c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "3fc54687-37ea-f441-6207-f15b0ca07f9c"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185349003",
+                "display": "Encounter for check up (procedure)"
+              }
+            ],
+            "text": "Encounter for check up (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70",
+          "display": "Michaela318 Cheryll577 Upton904"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "primary performer"
+              }
+            ],
+            "period": {
+              "start": "2023-04-18T10:03:55+01:00",
+              "end": "2023-04-18T10:18:55+01:00"
+            },
+            "individual": {
+              "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994095",
+              "display": "Dr. Tracie996 Lesch175"
+            }
+          }
+        ],
+        "period": {
+          "start": "2023-04-18T10:03:55+01:00",
+          "end": "2023-04-18T10:18:55+01:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+              "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ecd3b321-0a8a-3ce6-81f0-982dd77fce43",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "3fc54687-37ea-f441-8431-cead225b5686",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "3fc54687-37ea-f441-8431-cead225b5686"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "33879002",
+                "display": "Administration of vaccine to produce active immunity (procedure)"
+              }
+            ],
+            "text": "Administration of vaccine to produce active immunity (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70",
+          "display": "Michaela318 Cheryll577 Upton904"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "primary performer"
+              }
+            ],
+            "period": {
+              "start": "2024-01-16T09:03:55+00:00",
+              "end": "2024-01-16T09:18:55+00:00"
+            },
+            "individual": {
+              "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994095",
+              "display": "Dr. Tracie996 Lesch175"
+            }
+          }
+        ],
+        "period": {
+          "start": "2024-01-16T09:03:55+00:00",
+          "end": "2024-01-16T09:18:55+00:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+              "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ecd3b321-0a8a-3ce6-81f0-982dd77fce43",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "3fc54687-37ea-f441-e10d-330658886392",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://github.com/synthetichealth/synthea",
+            "value": "3fc54687-37ea-f441-e10d-330658886392"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "185349003",
+                "display": "Encounter for check up (procedure)"
+              }
+            ],
+            "text": "Encounter for check up (procedure)"
+          }
+        ],
+        "subject": {
+          "reference": "urn:uuid:3fc54687-37ea-f441-7876-69a45d50ac70",
+          "display": "Michaela318 Cheryll577 Upton904"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer"
+                  }
+                ],
+                "text": "primary performer"
+              }
+            ],
+            "period": {
+              "start": "2025-06-17T10:03:55+01:00",
+              "end": "2025-06-17T10:18:55+01:00"
+            },
+            "individual": {
+              "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994095",
+              "display": "Dr. Tracie996 Lesch175"
+            }
+          }
+        ],
+        "period": {
+          "start": "2025-06-17T10:03:55+01:00",
+          "end": "2025-06-17T10:18:55+01:00"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location?identifier=https://github.com/synthetichealth/synthea|6edc1824-658f-3dc6-9889-1a3504485061",
+              "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ecd3b321-0a8a-3ce6-81f0-982dd77fce43",
+          "display": "ANNA JAQUES HOSPITAL SUBACUTE UNIT"
+        }
+      }
+    }
+  ]
+}

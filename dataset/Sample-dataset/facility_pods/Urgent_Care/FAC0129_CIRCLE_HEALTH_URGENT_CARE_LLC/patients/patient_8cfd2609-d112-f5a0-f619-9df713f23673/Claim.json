@@ -1,0 +1,2026 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-de11-20e9264c34d5",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "pharmacy"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673"
+        },
+        "billablePeriod": {
+          "start": "2016-03-20T14:40:19+00:00",
+          "end": "2016-03-20T15:25:54+00:00"
+        },
+        "created": "2016-03-20T15:25:54+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "prescription": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-8ea7-e13d3f98a4f6"
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "310798",
+                  "display": "Hydrochlorothiazide 25 MG Oral Tablet"
+                }
+              ],
+              "text": "Hydrochlorothiazide 25 MG Oral Tablet"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-f7d2-4c9ce0e742b5"
+              }
+            ]
+          }
+        ],
+        "total": {
+          "value": 0.47,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-b767-5276d38d2b94",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673",
+          "display": "Marlin805 Kenneth671 Haley279"
+        },
+        "billablePeriod": {
+          "start": "2016-03-20T14:40:19+00:00",
+          "end": "2016-03-20T15:25:54+00:00"
+        },
+        "created": "2016-03-20T15:25:54+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "facility": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|e9cf4f89-9392-3655-828f-418d597de57c",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "supportingInfo": [
+          {
+            "sequence": 1,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          }
+        ],
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "702927004",
+                  "display": "Urgent care clinic (environment)"
+                }
+              ],
+              "text": "Urgent care clinic (environment)"
+            },
+            "net": {
+              "value": 142.58,
+              "currency": "USD"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-f7d2-4c9ce0e742b5"
+              }
+            ]
+          },
+          {
+            "sequence": 2,
+            "informationSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "337388004",
+                  "display": "Blood glucose testing strips (physical object)"
+                }
+              ],
+              "text": "Blood glucose testing strips (physical object)"
+            },
+            "net": {
+              "value": 6.8,
+              "currency": "USD"
+            }
+          }
+        ],
+        "total": {
+          "value": 149.38,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-3ac5-fdd4d38107f1",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "pharmacy"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673"
+        },
+        "billablePeriod": {
+          "start": "2017-12-17T14:40:19+00:00",
+          "end": "2017-12-17T15:27:23+00:00"
+        },
+        "created": "2017-12-17T15:27:23+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "prescription": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f8e8-72b765b06e67"
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "310798",
+                  "display": "Hydrochlorothiazide 25 MG Oral Tablet"
+                }
+              ],
+              "text": "Hydrochlorothiazide 25 MG Oral Tablet"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-1d2f-6c24e639363a"
+              }
+            ]
+          }
+        ],
+        "total": {
+          "value": 0.45,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-ab3c-b92d61197081",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673",
+          "display": "Marlin805 Kenneth671 Haley279"
+        },
+        "billablePeriod": {
+          "start": "2017-12-17T14:40:19+00:00",
+          "end": "2017-12-17T15:27:23+00:00"
+        },
+        "created": "2017-12-17T15:27:23+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "facility": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|e9cf4f89-9392-3655-828f-418d597de57c",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "supportingInfo": [
+          {
+            "sequence": 1,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 2,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 3,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          }
+        ],
+        "diagnosis": [
+          {
+            "sequence": 1,
+            "diagnosisReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-2e13-85a8b5629976"
+            }
+          },
+          {
+            "sequence": 2,
+            "diagnosisReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-b6a4-a24f2bf8f78a"
+            }
+          },
+          {
+            "sequence": 3,
+            "diagnosisReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-aa80-8709bfb45d64"
+            }
+          }
+        ],
+        "procedure": [
+          {
+            "sequence": 1,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-948b-70e91eb5442a"
+            }
+          },
+          {
+            "sequence": 2,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-70df-2078eb9f71aa"
+            }
+          },
+          {
+            "sequence": 3,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-3f96-90ad03e6771e"
+            }
+          },
+          {
+            "sequence": 4,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-d928-873872a9151a"
+            }
+          },
+          {
+            "sequence": 5,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-d439-c87c051cc7e7"
+            }
+          }
+        ],
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "702927004",
+                  "display": "Urgent care clinic (environment)"
+                }
+              ],
+              "text": "Urgent care clinic (environment)"
+            },
+            "net": {
+              "value": 142.58,
+              "currency": "USD"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-1d2f-6c24e639363a"
+              }
+            ]
+          },
+          {
+            "sequence": 2,
+            "diagnosisSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "314529007",
+                  "display": "Medication review due (situation)"
+                }
+              ],
+              "text": "Medication review due (situation)"
+            }
+          },
+          {
+            "sequence": 3,
+            "procedureSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "430193006",
+                  "display": "Medication reconciliation (procedure)"
+                }
+              ],
+              "text": "Medication reconciliation (procedure)"
+            },
+            "net": {
+              "value": 645.84,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 4,
+            "informationSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "51990-0",
+                  "display": "Basic metabolic panel - Blood"
+                }
+              ],
+              "text": "Basic metabolic panel - Blood"
+            },
+            "net": {
+              "value": 74.58,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 5,
+            "informationSequence": [
+              2
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "58410-2",
+                  "display": "CBC panel - Blood by Automated count"
+                }
+              ],
+              "text": "CBC panel - Blood by Automated count"
+            },
+            "net": {
+              "value": 74.58,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 6,
+            "procedureSequence": [
+              2
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "710824005",
+                  "display": "Assessment of health and social care needs (procedure)"
+                }
+              ],
+              "text": "Assessment of health and social care needs (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 7,
+            "diagnosisSequence": [
+              2
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "160903007",
+                  "display": "Full-time employment (finding)"
+                }
+              ],
+              "text": "Full-time employment (finding)"
+            }
+          },
+          {
+            "sequence": 8,
+            "diagnosisSequence": [
+              3
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "422650009",
+                  "display": "Social isolation (finding)"
+                }
+              ],
+              "text": "Social isolation (finding)"
+            }
+          },
+          {
+            "sequence": 9,
+            "procedureSequence": [
+              3
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "171207006",
+                  "display": "Depression screening (procedure)"
+                }
+              ],
+              "text": "Depression screening (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 10,
+            "procedureSequence": [
+              4
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "171207006",
+                  "display": "Depression screening (procedure)"
+                }
+              ],
+              "text": "Depression screening (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 11,
+            "informationSequence": [
+              3
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55757-9",
+                  "display": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+                }
+              ],
+              "text": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+            },
+            "net": {
+              "value": 74.58,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 12,
+            "procedureSequence": [
+              5
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "103697008",
+                  "display": "Patient referral for dental care (procedure)"
+                }
+              ],
+              "text": "Patient referral for dental care (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          }
+        ],
+        "total": {
+          "value": 2737.76,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-4055-92d75e22c21b",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "pharmacy"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673"
+        },
+        "billablePeriod": {
+          "start": "2021-12-05T14:40:19+00:00",
+          "end": "2021-12-05T15:29:43+00:00"
+        },
+        "created": "2021-12-05T15:29:43+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "prescription": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-6236-49d20d891984"
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "310798",
+                  "display": "Hydrochlorothiazide 25 MG Oral Tablet"
+                }
+              ],
+              "text": "Hydrochlorothiazide 25 MG Oral Tablet"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-3054-dd60e373dc92"
+              }
+            ]
+          }
+        ],
+        "total": {
+          "value": 0.54,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-486d-fe2a4d2c0d61",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673",
+          "display": "Marlin805 Kenneth671 Haley279"
+        },
+        "billablePeriod": {
+          "start": "2021-12-05T14:40:19+00:00",
+          "end": "2021-12-05T15:29:43+00:00"
+        },
+        "created": "2021-12-05T15:29:43+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "facility": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|e9cf4f89-9392-3655-828f-418d597de57c",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "supportingInfo": [
+          {
+            "sequence": 1,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            },
+            "valueReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-ec52-758e6be40520"
+            }
+          },
+          {
+            "sequence": 2,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            },
+            "valueReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-eb8e-d1e62d656b5f"
+            }
+          },
+          {
+            "sequence": 3,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 4,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 5,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 6,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          }
+        ],
+        "diagnosis": [
+          {
+            "sequence": 1,
+            "diagnosisReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-c7b8-b640bb73f274"
+            }
+          },
+          {
+            "sequence": 2,
+            "diagnosisReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-7e82-1c523006dc1c"
+            }
+          },
+          {
+            "sequence": 3,
+            "diagnosisReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-4c4a-84971c4af17f"
+            }
+          }
+        ],
+        "procedure": [
+          {
+            "sequence": 1,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-5147-18ee12d2a961"
+            }
+          },
+          {
+            "sequence": 2,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-4838-c56435cbf34b"
+            }
+          },
+          {
+            "sequence": 3,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-b6fc-6f51d179959c"
+            }
+          },
+          {
+            "sequence": 4,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-68b2-8fda066d084f"
+            }
+          },
+          {
+            "sequence": 5,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-4a68-4d820c5aa7b5"
+            }
+          },
+          {
+            "sequence": 6,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-0c4e-f5b1bad4dff8"
+            }
+          }
+        ],
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "702927004",
+                  "display": "Urgent care clinic (environment)"
+                }
+              ],
+              "text": "Urgent care clinic (environment)"
+            },
+            "net": {
+              "value": 142.58,
+              "currency": "USD"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-3054-dd60e373dc92"
+              }
+            ]
+          },
+          {
+            "sequence": 2,
+            "informationSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "140",
+                  "display": "Influenza, split virus, trivalent, PF"
+                }
+              ],
+              "text": "Influenza, split virus, trivalent, PF"
+            },
+            "net": {
+              "value": 136.0,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 3,
+            "informationSequence": [
+              2
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "113",
+                  "display": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed"
+                }
+              ],
+              "text": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed"
+            },
+            "net": {
+              "value": 136.0,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 4,
+            "diagnosisSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "314529007",
+                  "display": "Medication review due (situation)"
+                }
+              ],
+              "text": "Medication review due (situation)"
+            }
+          },
+          {
+            "sequence": 5,
+            "procedureSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "430193006",
+                  "display": "Medication reconciliation (procedure)"
+                }
+              ],
+              "text": "Medication reconciliation (procedure)"
+            },
+            "net": {
+              "value": 215.7,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 6,
+            "informationSequence": [
+              3
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "337388004",
+                  "display": "Blood glucose testing strips (physical object)"
+                }
+              ],
+              "text": "Blood glucose testing strips (physical object)"
+            },
+            "net": {
+              "value": 6.8,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 7,
+            "informationSequence": [
+              4
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "51990-0",
+                  "display": "Basic metabolic panel - Blood"
+                }
+              ],
+              "text": "Basic metabolic panel - Blood"
+            },
+            "net": {
+              "value": 74.58,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 8,
+            "procedureSequence": [
+              2
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "710824005",
+                  "display": "Assessment of health and social care needs (procedure)"
+                }
+              ],
+              "text": "Assessment of health and social care needs (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 9,
+            "diagnosisSequence": [
+              2
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "160903007",
+                  "display": "Full-time employment (finding)"
+                }
+              ],
+              "text": "Full-time employment (finding)"
+            }
+          },
+          {
+            "sequence": 10,
+            "procedureSequence": [
+              3
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "762993000",
+                  "display": "Assessment using Morse Fall Scale (procedure)"
+                }
+              ],
+              "text": "Assessment using Morse Fall Scale (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 11,
+            "informationSequence": [
+              5
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "59453-1",
+                  "display": "Morse Fall Scale panel"
+                }
+              ],
+              "text": "Morse Fall Scale panel"
+            },
+            "net": {
+              "value": 74.58,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 12,
+            "procedureSequence": [
+              4
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "428211000124100",
+                  "display": "Assessment of substance use (procedure)"
+                }
+              ],
+              "text": "Assessment of substance use (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 13,
+            "procedureSequence": [
+              5
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "763302001",
+                  "display": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)"
+                }
+              ],
+              "text": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 14,
+            "informationSequence": [
+              6
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "72109-2",
+                  "display": "Alcohol Use Disorder Identification Test - Consumption [AUDIT-C]"
+                }
+              ],
+              "text": "Alcohol Use Disorder Identification Test - Consumption [AUDIT-C]"
+            },
+            "net": {
+              "value": 74.58,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 15,
+            "diagnosisSequence": [
+              3
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "66383009",
+                  "display": "Gingivitis (disorder)"
+                }
+              ],
+              "text": "Gingivitis (disorder)"
+            }
+          },
+          {
+            "sequence": 16,
+            "procedureSequence": [
+              6
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "103697008",
+                  "display": "Patient referral for dental care (procedure)"
+                }
+              ],
+              "text": "Patient referral for dental care (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          }
+        ],
+        "total": {
+          "value": 3017.82,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-935c-c37497273bd7",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "pharmacy"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673"
+        },
+        "billablePeriod": {
+          "start": "2021-12-12T14:40:19+00:00",
+          "end": "2021-12-12T14:55:19+00:00"
+        },
+        "created": "2021-12-12T14:55:19+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "prescription": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-4ec8-6c8bdb23baab"
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "310798",
+                  "display": "Hydrochlorothiazide 25 MG Oral Tablet"
+                }
+              ],
+              "text": "Hydrochlorothiazide 25 MG Oral Tablet"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-4b57-17adbfab2732"
+              }
+            ]
+          }
+        ],
+        "total": {
+          "value": 0.45,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-59a9-a15c6d743300",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673",
+          "display": "Marlin805 Kenneth671 Haley279"
+        },
+        "billablePeriod": {
+          "start": "2021-12-12T14:40:19+00:00",
+          "end": "2021-12-12T14:55:19+00:00"
+        },
+        "created": "2021-12-12T14:55:19+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "facility": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|e9cf4f89-9392-3655-828f-418d597de57c",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "supportingInfo": [
+          {
+            "sequence": 1,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 2,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          }
+        ],
+        "diagnosis": [
+          {
+            "sequence": 1,
+            "diagnosisReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-22ee-681b33da64a7"
+            }
+          }
+        ],
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "702927004",
+                  "display": "Urgent care clinic (environment)"
+                }
+              ],
+              "text": "Urgent care clinic (environment)"
+            },
+            "net": {
+              "value": 142.58,
+              "currency": "USD"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-4b57-17adbfab2732"
+              }
+            ]
+          },
+          {
+            "sequence": 2,
+            "diagnosisSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "314529007",
+                  "display": "Medication review due (situation)"
+                }
+              ],
+              "text": "Medication review due (situation)"
+            }
+          },
+          {
+            "sequence": 3,
+            "informationSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "337388004",
+                  "display": "Blood glucose testing strips (physical object)"
+                }
+              ],
+              "text": "Blood glucose testing strips (physical object)"
+            },
+            "net": {
+              "value": 6.8,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 4,
+            "informationSequence": [
+              2
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "1137596000",
+                  "display": "Blood lancet (physical object)"
+                }
+              ],
+              "text": "Blood lancet (physical object)"
+            },
+            "net": {
+              "value": 0.0,
+              "currency": "USD"
+            }
+          }
+        ],
+        "total": {
+          "value": 149.38,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-3648-0bddd231459c",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "pharmacy"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673"
+        },
+        "billablePeriod": {
+          "start": "2026-01-25T14:40:19+00:00",
+          "end": "2026-01-25T14:55:19+00:00"
+        },
+        "created": "2026-01-25T14:55:19+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "prescription": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-26f7-db1f51b3fe1d"
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "310798",
+                  "display": "Hydrochlorothiazide 25 MG Oral Tablet"
+                }
+              ],
+              "text": "Hydrochlorothiazide 25 MG Oral Tablet"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-7a29-52a6d68d46dd"
+              }
+            ]
+          }
+        ],
+        "total": {
+          "value": 0.45,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-b2b9-ab2e657f1e07",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673",
+          "display": "Marlin805 Kenneth671 Haley279"
+        },
+        "billablePeriod": {
+          "start": "2026-01-25T14:40:19+00:00",
+          "end": "2026-01-25T14:55:19+00:00"
+        },
+        "created": "2026-01-25T14:55:19+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "facility": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|e9cf4f89-9392-3655-828f-418d597de57c",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "702927004",
+                  "display": "Urgent care clinic (environment)"
+                }
+              ],
+              "text": "Urgent care clinic (environment)"
+            },
+            "net": {
+              "value": 142.58,
+              "currency": "USD"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-7a29-52a6d68d46dd"
+              }
+            ]
+          }
+        ],
+        "total": {
+          "value": 142.58,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-ed27-da15d4123a38",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "pharmacy"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673"
+        },
+        "billablePeriod": {
+          "start": "2026-02-01T14:40:19+00:00",
+          "end": "2026-02-01T15:37:23+00:00"
+        },
+        "created": "2026-02-01T15:37:23+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "prescription": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-b95a-287569e454e6"
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                  "code": "310798",
+                  "display": "Hydrochlorothiazide 25 MG Oral Tablet"
+                }
+              ],
+              "text": "Hydrochlorothiazide 25 MG Oral Tablet"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-c75a-c298fb6d5397"
+              }
+            ]
+          }
+        ],
+        "total": {
+          "value": 0.45,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Claim",
+        "id": "8cfd2609-d112-f5a0-7518-a5827e55f2fe",
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "professional"
+            }
+          ]
+        },
+        "use": "claim",
+        "patient": {
+          "reference": "urn:uuid:8cfd2609-d112-f5a0-f619-9df713f23673",
+          "display": "Marlin805 Kenneth671 Haley279"
+        },
+        "billablePeriod": {
+          "start": "2026-02-01T14:40:19+00:00",
+          "end": "2026-02-01T15:37:23+00:00"
+        },
+        "created": "2026-02-01T15:37:23+00:00",
+        "provider": {
+          "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|1de7e7d9-9a7a-3a3f-bf4c-b4de450711f2",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "facility": {
+          "reference": "Location?identifier=https://github.com/synthetichealth/synthea|e9cf4f89-9392-3655-828f-418d597de57c",
+          "display": "CIRCLE HEALTH URGENT CARE LLC"
+        },
+        "supportingInfo": [
+          {
+            "sequence": 1,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 2,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 3,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          },
+          {
+            "sequence": 4,
+            "category": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+                  "code": "info"
+                }
+              ]
+            }
+          }
+        ],
+        "procedure": [
+          {
+            "sequence": 1,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-b92e-0de7eb42fb66"
+            }
+          },
+          {
+            "sequence": 2,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-8cac-4a6dcc88bc75"
+            }
+          },
+          {
+            "sequence": 3,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-5d9e-2ca520400668"
+            }
+          },
+          {
+            "sequence": 4,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-230f-a095a3fb34c6"
+            }
+          },
+          {
+            "sequence": 5,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-a557-3d0f7b5a6c04"
+            }
+          },
+          {
+            "sequence": 6,
+            "procedureReference": {
+              "reference": "urn:uuid:8cfd2609-d112-f5a0-c2b4-af673959c9f7"
+            }
+          }
+        ],
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "display": "Medicare"
+            }
+          }
+        ],
+        "item": [
+          {
+            "sequence": 1,
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "702927004",
+                  "display": "Urgent care clinic (environment)"
+                }
+              ],
+              "text": "Urgent care clinic (environment)"
+            },
+            "net": {
+              "value": 142.58,
+              "currency": "USD"
+            },
+            "encounter": [
+              {
+                "reference": "urn:uuid:8cfd2609-d112-f5a0-c75a-c298fb6d5397"
+              }
+            ]
+          },
+          {
+            "sequence": 2,
+            "procedureSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "430193006",
+                  "display": "Medication reconciliation (procedure)"
+                }
+              ],
+              "text": "Medication reconciliation (procedure)"
+            },
+            "net": {
+              "value": 215.7,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 3,
+            "informationSequence": [
+              1
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "337388004",
+                  "display": "Blood glucose testing strips (physical object)"
+                }
+              ],
+              "text": "Blood glucose testing strips (physical object)"
+            },
+            "net": {
+              "value": 6.8,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 4,
+            "informationSequence": [
+              2
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "51990-0",
+                  "display": "Basic metabolic panel - Blood"
+                }
+              ],
+              "text": "Basic metabolic panel - Blood"
+            },
+            "net": {
+              "value": 74.58,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 5,
+            "procedureSequence": [
+              2
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "710824005",
+                  "display": "Assessment of health and social care needs (procedure)"
+                }
+              ],
+              "text": "Assessment of health and social care needs (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 6,
+            "procedureSequence": [
+              3
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "762993000",
+                  "display": "Assessment using Morse Fall Scale (procedure)"
+                }
+              ],
+              "text": "Assessment using Morse Fall Scale (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 7,
+            "informationSequence": [
+              3
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "59453-1",
+                  "display": "Morse Fall Scale panel"
+                }
+              ],
+              "text": "Morse Fall Scale panel"
+            },
+            "net": {
+              "value": 74.58,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 8,
+            "procedureSequence": [
+              4
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "171207006",
+                  "display": "Depression screening (procedure)"
+                }
+              ],
+              "text": "Depression screening (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 9,
+            "procedureSequence": [
+              5
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "171207006",
+                  "display": "Depression screening (procedure)"
+                }
+              ],
+              "text": "Depression screening (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 10,
+            "informationSequence": [
+              4
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "55757-9",
+                  "display": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+                }
+              ],
+              "text": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+            },
+            "net": {
+              "value": 74.58,
+              "currency": "USD"
+            }
+          },
+          {
+            "sequence": 11,
+            "procedureSequence": [
+              6
+            ],
+            "productOrService": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "103697008",
+                  "display": "Patient referral for dental care (procedure)"
+                }
+              ],
+              "text": "Patient referral for dental care (procedure)"
+            },
+            "net": {
+              "value": 431.4,
+              "currency": "USD"
+            }
+          }
+        ],
+        "total": {
+          "value": 2745.82,
+          "currency": "USD"
+        }
+      }
+    }
+  ]
+}

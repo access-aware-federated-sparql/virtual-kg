@@ -1,0 +1,42 @@
+# Q04 — Patient — Complex
+# What wearable physical-activity measurements and
+# clinical observations are recorded for me?
+
+PREFIX syn: <http://example.org/synthea/vocab/>
+
+SELECT ?recordType ?record ?time ?measurement ?value ?unit
+WHERE {
+
+  {
+    GRAPH ?gActivity {
+      ?record
+        syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+        syn:wearableCategory "physical_activity" ;
+        syn:sourceFile "physical_activity/hourlySteps.json" ;
+        syn:ActivityHour ?time ;
+        syn:StepTotal ?value .
+    }
+
+    BIND("wearable_physical_activity" AS ?recordType)
+    BIND("steps" AS ?measurement)
+  }
+
+  UNION
+
+  {
+    GRAPH ?gObservation {
+      ?record
+        syn:subject <http://example.org/synthea/data/Patient/{{PATIENT_ID}}> ;
+        syn:observationName ?measurement ;
+        syn:effectiveDateTime ?time ;
+        syn:value ?value .
+
+      OPTIONAL {
+        ?record syn:unit ?unit .
+      }
+    }
+
+    BIND("clinical_observation" AS ?recordType)
+  }
+}
+ORDER BY ?recordType ?time
