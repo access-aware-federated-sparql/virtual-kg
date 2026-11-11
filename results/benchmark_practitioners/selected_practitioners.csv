@@ -1,0 +1,21 @@
+practitioner_id,name,selection_server,selection_group,patient_count,encounter_count,organization_count,patient_union_server_count,patient_union_servers,patients_on_1_server,patients_on_2_servers,patients_on_3_servers,patients_on_4_servers,cross_server_patients,cross_server_ratio,avg_servers_per_patient
+0e59f4f4-3536-33ed-9745-106706f88281,Dr. Nan75 Collins926,S1,LOW,1,667,1,4,S1|S2|S3|S4,0,0,0,1,1,1.0,4.0
+9a489fdd-1043-300d-9669-1fb86d01ef65,Dr. Quincy153 Torp761,S1,LOW,1,19,1,4,S1|S2|S3|S4,0,0,0,1,1,1.0,4.0
+b28a8b40-dbeb-324d-85ff-7c2b1b05e600,Dr. Concha418 Mann644,S1,MEDIUM,2,4,1,4,S1|S2|S3|S4,0,0,1,1,2,1.0,3.5
+3d364bfc-ed8f-306d-bfd3-6d2fdbe04690,Dr. Lorretta561 Reinger292,S1,MEDIUM,2,3,1,4,S1|S2|S3|S4,0,0,1,1,2,1.0,3.5
+c7891790-0b15-30b9-91e3-ef7a9a548d5d,Dr. Jolie499 Parisian75,S1,HIGH,10,63,1,4,S1|S2|S3|S4,0,3,3,4,10,1.0,3.1
+14b8ec29-6124-34dd-8c10-600c52648e00,Dr. Virginia437 Morales679,S2,LOW,1,11,1,4,S1|S2|S3|S4,0,0,0,1,1,1.0,4.0
+ef601617-c6d4-3730-bb4a-51736cbeaa7d,Dr. Lincoln623 Trantow673,S2,LOW,1,7,1,4,S1|S2|S3|S4,0,0,0,1,1,1.0,4.0
+c34a59fc-2039-39b5-89e5-f98cacac2b4d,Dr. Cythia210 Crona259,S2,MEDIUM,3,35,1,4,S1|S2|S3|S4,0,0,1,2,3,1.0,3.6666666666666665
+b69b200e-0a36-3438-b95b-ef453665b3e5,Dr. Millie392 Hoppe518,S2,MEDIUM,3,8,1,4,S1|S2|S3|S4,0,0,1,2,3,1.0,3.6666666666666665
+18742473-7763-3789-9a58-cb322ab51e0a,Dr. Nicholas495 Greenfelder433,S2,HIGH,6,101,1,4,S1|S2|S3|S4,0,1,2,3,6,1.0,3.3333333333333335
+c6393f57-eb15-3785-accd-638d543f1c63,Dr. Rubén780 Bernal586,S3,LOW,1,19,1,4,S1|S2|S3|S4,0,0,0,1,1,1.0,4.0
+3cc44472-6838-376e-9a73-4da12f9dc0e6,Dr. Dallas143 Friesen796,S3,LOW,1,17,1,4,S1|S2|S3|S4,0,0,0,1,1,1.0,4.0
+b008998c-cc5a-3f3d-a807-1507d6ff0478,Dr. Evan94 Anderson154,S3,MEDIUM,2,2,1,4,S1|S2|S3|S4,0,0,0,2,2,1.0,4.0
+4f33a9d9-23ed-3922-aa8a-609cb884b366,Dr. Octavio643 Prosacco716,S3,MEDIUM,2,22,1,4,S1|S2|S3|S4,0,0,1,1,2,1.0,3.5
+82093cda-fd99-3da3-b712-c8ff8fa6ae56,Dr. Raleigh478 Hauck852,S3,HIGH,6,72,1,4,S1|S2|S3|S4,0,0,3,3,6,1.0,3.5
+8eacaf58-a85c-34a6-9316-311a9c0aaa6c,Dr. Preston275 Konopelski743,S4,LOW,1,48,1,4,S1|S2|S3|S4,0,0,0,1,1,1.0,4.0
+dd3839b4-6c80-3007-b933-5ab2a078cdf0,Dr. Houston994 Olson653,S4,LOW,1,7,1,4,S1|S2|S3|S4,0,0,0,1,1,1.0,4.0
+4b6943e4-6a76-3707-b3fb-2034e12c462f,Dr. Morris740 Runolfsdottir785,S4,MEDIUM,3,6,1,4,S1|S2|S3|S4,0,0,2,1,3,1.0,3.3333333333333335
+c5ce6083-de14-3eef-a685-868c7527886d,Dr. Carroll471 Eichmann909,S4,MEDIUM,3,84,1,4,S1|S2|S3|S4,0,1,1,1,3,1.0,3.0
+0f1e0f5f-3a30-3de3-9437-b15241cb6e79,Dr. Dan465 Swift555,S4,HIGH,16,45,1,4,S1|S2|S3|S4,0,2,7,7,16,1.0,3.3125
